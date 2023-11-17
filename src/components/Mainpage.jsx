@@ -17,15 +17,13 @@ export default function Mainpage() {
   const [showAlert, setShowAlert] = useState(false);
   const [isPdfQuery, setIsPdfQuery] = useState(false);
 
-  const phoneNumber = '9870303003';
+  const phoneNumber = "9870303003";
 
   const handleWhatsAppClick = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, "_blank");
   };
-
- 
 
   const [selectedImage, setSelectedImage] = useState(
     "https://cdn.discordapp.com/attachments/1096324843877703713/1172833940936065084/framing-landscape-while-traveling.jpg?ex=6561c1b9&is=654f4cb9&hm=a73075c37be4b9d75c1e12a00c9a55bc0c0ab4b6ddaa6602f72dcdd62c29155a&"
@@ -48,13 +46,12 @@ export default function Mainpage() {
 
   const backgroundStyles = {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize:"cover",
-    backgroundRepeat:"no-repeat",
-    backgroundPosition:"center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
   };
 
   const [images, setImages] = useState([
-    
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733523263131678/image.png?ex=655dc0e1&is=654b4be1&hm=be1350cdf701589eaa7a0b7575597a4a47469f5eb7ab84f2e43a383417beeca1&",
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733129459924992/image.png?ex=655dc083&is=654b4b83&hm=04f08b0d09b3a77b590ddf0fe85ce08230da9fbbd68ad15b4ac45a8a475d25f8&",
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733523946815488/image.png?ex=655dc0e1&is=654b4be1&hm=e9f3dd804054d34dc814b4b45e580a6fa49c839640d795698d5bc0b20d8432b7&",
@@ -75,8 +72,6 @@ export default function Mainpage() {
   const loadMoreImages = () => {
     setVisibleImages((prevVisibleImages) => prevVisibleImages + 6);
   };
-
- 
 
   // const slides = [
   //   "https://cdn.discordapp.com/attachments/1096324843877703713/1170449806326509629/image.png?ex=65591553&is=6546a053&hm=39a63eb208dc06999a7b2deb3b330813fbe72caa16364ab341a2e7ff40b6f350&",
@@ -191,7 +186,6 @@ export default function Mainpage() {
       `Muchhala Polytechnic - 2.4 km.`,
       `DG International School - 2.7 km.`,
       ` New Horizon Scholars School - 2.9 km.`,
-      
     ],
     4: [
       `HOSPITALS`,
@@ -220,17 +214,17 @@ export default function Mainpage() {
   //   function getScreenSize() {
   //     const innerWidth = window.innerWidth;
   //     console.log("innerWidth", innerWidth);
-  
+
   //     if (innerWidth >= 1200) {
   //       setScreenSize("large");
   //       return "large";
   //     } else if (innerWidth >= 768) {
   //       setScreenSize("medium");
-  
+
   //       return "medium";
   //     } else {
   //       setScreenSize("small");
-  
+
   //       console.log("small");
   //       return "small";
   //     }
@@ -369,13 +363,18 @@ export default function Mainpage() {
                 alt=""
               />
               <p className="my-2 h-fit text-[1.2rem]  lg:max-w-[500px]">
-              Life at Cascade Avenue is far away from mediocrity, closer to stardom, <br/> <br/>
-On one hand its magnificent facade is a grand celebration Of the luxurious conveniences
-loaded inside. While on the other, the attent.on to the tiniest of details makes you feel like royalty.<br/> <br/>
-Everything about these spaces is a result of thoughtful design. From its creme-de-la-creme
-location that reduces the travel stress. to its brilliantly designed interiors that nestles one
-way from the neon of the busy urban life. <br/> <br/>
-Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
+                Life at Cascade Avenue is far away from mediocrity, closer to
+                stardom, <br /> <br />
+                On one hand its magnificent facade is a grand celebration Of the
+                luxurious conveniences loaded inside. While on the other, the
+                attent.on to the tiniest of details makes you feel like royalty.
+                <br /> <br />
+                Everything about these spaces is a result of thoughtful design.
+                From its creme-de-la-creme location that reduces the travel
+                stress. to its brilliantly designed interiors that nestles one
+                way from the neon of the busy urban life. <br /> <br />
+                Cascade Avenue essentially flaunts 2 towers with ultramodern
+                living spaces.
               </p>
             </div>
 
@@ -663,7 +662,6 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
             >
               <div className="w-[20rem] h-[20rem] mb-14 lg:w-[33rem] lg:h-[24rem]">
                 <img
-                  
                   onClick={() => {
                     console.log(page3ImgObj[page3Selector]);
                   }}
@@ -714,7 +712,13 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           <div className="w-[80%] h-auto ">
             <div className="grid grid-cols-2 gap-x-4  lg:grid-cols-3 lg:gap-10">
               {locationImg.map((img, index) => {
-                return <HoverImage key={index} img={img} text={locationText[index]} />;
+                return (
+                  <HoverImage
+                    key={index}
+                    img={img}
+                    text={locationText[index]}
+                  />
+                );
               })}
             </div>
           </div>
@@ -763,7 +767,11 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 </div>
               ) : (
                 <div className="relative w-[50%] mx-auto  h-fit font-dm-serif-display text-yellow-700 text-center">
-                  <img className="w-full h-[80vh]" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172826016247455804/WhatsApp_Image_2023-11-02_at_22.18.53_146fd8f8.jpg?ex=6561ba58&is=654f4558&hm=674a997c1870328e84e78706899cc78f406e9999a7619249401a93a787ec72f0&" alt="" />
+                  <img
+                    className="w-full h-[80vh]"
+                    src="https://cdn.discordapp.com/attachments/1096324843877703713/1172826016247455804/WhatsApp_Image_2023-11-02_at_22.18.53_146fd8f8.jpg?ex=6561ba58&is=654f4558&hm=674a997c1870328e84e78706899cc78f406e9999a7619249401a93a787ec72f0&"
+                    alt=""
+                  />
                 </div>
               )}
             </div>
@@ -855,22 +863,24 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           className="h-auto w-full mx-auto bg-cover"
           style={{
             backgroundImage: `URL('https://cdn.discordapp.com/attachments/1096324843877703713/1172809545421172737/image.png?ex=6561ab01&is=654f3601&hm=908f8ef6fb008954d7f172ed8e412068259ad2b8f4b4ec6696a6513fcd400d17&')`,
-            backgroundSize:"cover",
-            backgroundRepeat:"no-repeat",
-            backgroundPosition:"center",
-            maxWidth:`100%`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            maxWidth: `100%`,
             // backgroundAttachment:"fixed"
-
           }}
         >
           <div className="h-auto">
             <div className="h-[100vh] w-[63%] flex items-center justify-center mx-auto  gap-10 ">
-              <div onClick={() => {
+              <div
+                onClick={() => {
                   setIsPdfQuery(true);
                   setShowModal(true);
 
                   // download function
-                }} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
+                }}
+                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+              >
                 <div className="absolute top-[1.19rem] w-fit left-[2.25rem]">
                   Download Brochure
                 </div>
@@ -881,12 +891,14 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 />
               </div>
 
-              <div onClick={() => {
-                  
+              <div
+                onClick={() => {
                   setShowModal(true);
 
                   // download function
-                }} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
+                }}
+                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+              >
                 <div className="absolute top-[1.19rem] left-[5.25rem] ">
                   Enquire Now
                 </div>
@@ -897,7 +909,10 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 />
               </div>
 
-              <div onClick={handleWhatsAppClick} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
+              <div
+                onClick={handleWhatsAppClick}
+                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+              >
                 <div className="absolute top-[1.19rem] left-[5.25rem]">
                   Contact Us
                 </div>
@@ -913,7 +928,11 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
 
         {/* footer */}
         <div className="h-[40vh] w-fit mx-auto mt-7 ">
-         <img className="h-auto w-[1400px] mx-auto  object-contain" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&" alt="" />
+          <img
+            className="h-auto w-[1400px] mx-auto  object-contain"
+            src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&"
+            alt=""
+          />
         </div>
       </div>
 
