@@ -798,7 +798,7 @@ export default function Mainpage() {
         </div>
 
         {/* scroll animation */}
-        <div id="section8" className="flex flex-col h-[23vh] lg:h-[50vh]">
+        <div id="section8" className="flex flex-col h-[29vh] lg:h-[50vh]">
           <div className=" overflow-hidden">
             <div>
               <ScrollCarousel />
