@@ -3,12 +3,12 @@ import DialogWithImage from "./PopOut";
 
 export default function CarouselCustomNavigation() {
   // const ImgStyle = { objectFit: "cover",maxWidth:`100%`,height:`auto`};
-  const imgUrl = ['https://cdn.discordapp.com/attachments/1096324843877703713/1172818558527479839/1.png?ex=6561b366&is=654f3e66&hm=9032d997f23eaa885dd885a8bcc271ed041eb5f56463472628f4ebc3ee1dc7b3&',
-'https://cdn.discordapp.com/attachments/1096324843877703713/1172818559278272522/3.png?ex=6561b366&is=654f3e66&hm=cde5d8d13067362e134eac734b89f060ee021161c3fd65798021fb09329212de&',
-'https://cdn.discordapp.com/attachments/1096324843877703713/1172818560079364156/5.png?ex=6561b366&is=654f3e66&hm=be3bf3be31fbe806a36b873cd554149be1ba0f9c0bb86798c6da6ef67195fda5&',
-'https://cdn.discordapp.com/attachments/1096324843877703713/1172818560960176158/4.png?ex=6561b366&is=654f3e66&hm=a9828c3bb189ec15694fd2f3c1ba195d28016e345561cb701f0998381f895b89&',
-
-] 
+  const imgUrl = [
+    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818558527479839/1.png?ex=6561b366&is=654f3e66&hm=9032d997f23eaa885dd885a8bcc271ed041eb5f56463472628f4ebc3ee1dc7b3&",
+    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818559278272522/3.png?ex=6561b366&is=654f3e66&hm=cde5d8d13067362e134eac734b89f060ee021161c3fd65798021fb09329212de&",
+    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818560079364156/5.png?ex=6561b366&is=654f3e66&hm=be3bf3be31fbe806a36b873cd554149be1ba0f9c0bb86798c6da6ef67195fda5&",
+    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818560960176158/4.png?ex=6561b366&is=654f3e66&hm=a9828c3bb189ec15694fd2f3c1ba195d28016e345561cb701f0998381f895b89&",
+  ];
   return (
     <Carousel
       className="rounded-3xl  overflow-hidden   w-[100%]  h-[30rem]  lg:w-[100%] lg:h-[100%] relative z-20"
@@ -36,10 +36,10 @@ export default function CarouselCustomNavigation() {
         width={`1600px`}
     
       /> */}
-      {imgUrl.map( (img)=>{
-        return <DialogWithImage key={img*100} url={img}/>
-      } )}
-       {/* <img
+      {imgUrl.map((img) => {
+        return <DialogWithImage key={img * 100} url={img} />;
+      })}
+      {/* <img
         src="https://media.discordapp.net/attachments/1096324843877703713/1170620628412403772/image.png?ex=6559b46a&is=65473f6a&hm=c260b6f0c4a6f0bb15e99afa9920d232a8403bf9f17536d1d78174ef6bdfcdf6&=&width=971&height=662"
         alt="image 1"
         className="object-cover "
@@ -66,7 +66,6 @@ export default function CarouselCustomNavigation() {
 
       />
       <DialogWithImage/> */}
-      
     </Carousel>
   );
 }
