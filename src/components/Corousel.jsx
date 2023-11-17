@@ -11,7 +11,7 @@ export default function CarouselCustomNavigation() {
 ] 
   return (
     <Carousel
-      className="rounded-3xl  overflow-hidden   w-[100%] h-[30rem]  lg:w-[100%] lg:h-[100%] relative z-20"
+      className="rounded-3xl  overflow-hidden   w-[100%]  h-[30rem]  lg:w-[100%] lg:h-[100%] relative z-20"
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="relative bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
