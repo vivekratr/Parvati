@@ -10,6 +10,7 @@ import HoverImage from "./HoverImg";
 import Modal from "./Modal";
 // import TransitionExample from './Dialog'
 // import { Link } from "react-scroll";
+import DialogWithImage from './PopOut'
 
 export default function Mainpage() {
   // modal
@@ -652,31 +653,34 @@ export default function Mainpage() {
             </div>
 
             <div
-              className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-40  
+              className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-36  
           ${
             page3Selector === 2
-              ? "ml-[20rem] lg:grid-cols-1"
+              ? "lg:ml-[1rem] ml-3 w-full  lg:grid-cols-1"
               : "lg:grid-cols-2 ml-4 lg:ml-12 "
           }`}
             >
-              <div className="w-[20rem] h-[20rem] mb-14 lg:w-[33rem] lg:h-[24rem]">
-                <img
+              <div className={` mb-14  ${page3Selector===2? 'w-[21rem] h-[20rem] lg:w-[85rem] lg:h-auto':"w-[20rem] h-[20rem] lg:w-[37rem] lg:h-auto"}`}>
+                {/* <img
                   onClick={() => {
                     console.log(page3ImgObj[page3Selector]);
                   }}
                   src={page3ImgObj[page3Selector][0]}
                   alt="Your Image"
                   className="w-[100%] h-full object-contain "
-                />
+                /> */}
+                <DialogWithImage  url={page3ImgObj[page3Selector][0]}/>
               </div>
 
               {page3ImgObj[page3Selector][1] && (
                 <div className=" w-[20rem]  h-[20rem] lg:w-[33rem] lg:h-[24rem]">
-                  <img
+                  {/* <img
                     src={page3ImgObj[page3Selector][1]}
                     alt="Your Image"
                     className="w-[100%] h-full object-fill "
-                  />
+                  /> */}
+                <DialogWithImage  url={page3ImgObj[page3Selector][1]}/>
+
                 </div>
               )}
             </div>

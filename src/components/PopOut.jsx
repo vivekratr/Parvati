@@ -43,7 +43,7 @@ export default function DialogWithImage(props) {
               },
               container: {
                 position: "relative",
-                bg: "bg-white",
+                bg: "bg-none",
                 m: "m-4",
                 borderRadius: "rounded-lg",
                 boxShadow: "shadow-2xl",
@@ -168,10 +168,10 @@ export default function DialogWithImage(props) {
             </Button>
           </div>
         </DialogHeader> */}
-        <DialogBody className="flex  items-baseline lg:items-start justify-center   pb-10">
+        <DialogBody className="flex bg-none items-baseline lg:items-start justify-center   pb-10">
           <img
             alt="nature"
-            className="h-auto max-h-[48vh] lg:max-h-[86%] relative right-4 w-[92%] lg:h-[90%] lg:max-w-[90%] bg-none rounded-lg  object-fill object-center"
+            className="h-auto max-h-[100vh] lg:max-h-[86%] relative right-4 w-[94%] lg:h-[90%] lg:max-w-[90%] bg-none   object-contain object-center"
             src={props.url}
           />
         </DialogBody>
