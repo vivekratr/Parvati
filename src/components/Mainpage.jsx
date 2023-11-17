@@ -48,8 +48,9 @@ export default function Mainpage() {
 
   const backgroundStyles = {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    backgroundSize:"cover",
+    backgroundRepeat:"no-repeat",
+    backgroundPosition:"center",
   };
 
   const [images, setImages] = useState([
@@ -215,35 +216,35 @@ export default function Mainpage() {
     ],
   };
 
-  useEffect(() => {
-    function getScreenSize() {
-      const innerWidth = window.innerWidth;
-      console.log("innerWidth", innerWidth);
+  // useEffect(() => {
+  //   function getScreenSize() {
+  //     const innerWidth = window.innerWidth;
+  //     console.log("innerWidth", innerWidth);
   
-      if (innerWidth >= 1200) {
-        setScreenSize("large");
-        return "large";
-      } else if (innerWidth >= 768) {
-        setScreenSize("medium");
+  //     if (innerWidth >= 1200) {
+  //       setScreenSize("large");
+  //       return "large";
+  //     } else if (innerWidth >= 768) {
+  //       setScreenSize("medium");
   
-        return "medium";
-      } else {
-        setScreenSize("small");
+  //       return "medium";
+  //     } else {
+  //       setScreenSize("small");
   
-        console.log("small");
-        return "small";
-      }
-    }
-    const screenSize = getScreenSize();
+  //       console.log("small");
+  //       return "small";
+  //     }
+  //   }
+  //   const screenSize = getScreenSize();
 
-    if (screenSize === "small") {
-      setBackgroundImage(
-        "https://cdn.discordapp.com/attachments/1096324843877703713/1170667695902048377/image.png?ex=6559e040&is=65476b40&hm=8225cf55ec24c1e09c4cfeb4d01662a123e19310152a8598f5578cbad0be4999&"
-      );
-    } else {
-      setBackgroundImage(backgroundImageUrl);
-    }
-  }, [ screenSize]);
+  //   if (screenSize === "small") {
+  //     setBackgroundImage(
+  //       "https://cdn.discordapp.com/attachments/1096324843877703713/1170667695902048377/image.png?ex=6559e040&is=65476b40&hm=8225cf55ec24c1e09c4cfeb4d01662a123e19310152a8598f5578cbad0be4999&"
+  //     );
+  //   } else {
+  //     setBackgroundImage(backgroundImageUrl);
+  //   }
+  // }, [ screenSize]);
 
   return (
     <Fragment>
@@ -854,6 +855,12 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           className="h-auto w-full mx-auto bg-cover"
           style={{
             backgroundImage: `URL('https://cdn.discordapp.com/attachments/1096324843877703713/1172809545421172737/image.png?ex=6561ab01&is=654f3601&hm=908f8ef6fb008954d7f172ed8e412068259ad2b8f4b4ec6696a6513fcd400d17&')`,
+            backgroundSize:"cover",
+            backgroundRepeat:"no-repeat",
+            backgroundPosition:"center",
+            maxWidth:`100%`,
+            // backgroundAttachment:"fixed"
+
           }}
         >
           <div className="h-auto">
