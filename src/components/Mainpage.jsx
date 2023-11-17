@@ -414,27 +414,27 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
         <div id="section3" className=" mt-[2rem] bg-lightgray h-fit ">
           <div className="flex h-auto">
             <div className="w-[80%] lg:w-[80%]     h-auto">
-              <div className="grid p-6 h-auto mx-7 mt-7 lg:mt-0  auto-rows-max grid-cols-[23rem] lg:grid-cols-3  gap-5 lg:gap-y-[2rem] lg:gap-x-[8rem]">
+              <div className="grid p-6 pl-0 h-auto mx-7 mt-7 lg:mt-0  auto-rows-max grid-cols-[23rem] lg:grid-cols-3  gap-5 lg:gap-y-[2rem] lg:gap-x-[8rem]">
                 {/* image 1 */}
-                <div className="relative bg-tan w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className="relative bg-tan w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full  bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]  transition-transform duration-[600ms] transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]  transition-transform duration-[600ms] transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171732951025860628/image.png?ex=655dc059&is=654b4b59&hm=cb754f3eed7092c313e90217eb496c8b6c5395cbfe2c663ea0612a6d3555ce0d&
   "
                       alt="Your Image"
                       className="w-full h-full object-fill lg:w-full lg:h-full lg:object-cover "
                     />
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-yellow-900 text-left  opacity-[0.7]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-yellow-900 text-left  opacity-[0.7]">
                       Children Area
                     </p>
                   </div>
                 </div>
 
                 {/* image 2 */}
-                <div className="relative bg-tan w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className="relative bg-tan w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171733074195795998/image.png?ex=655dc076&is=654b4b76&hm=6309b2cea31146bada03f48494c5a5612ea94612d47d494114dd3e75fdb77edc&
   "
@@ -442,69 +442,69 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                       className="w-full h-full object-cover "
                     />
 
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
                       Gym Area
                     </p>
                   </div>
                 </div>
 
                 {/* image 3 */}
-                <div className="relative bg-tan w-[21rem] z-50 h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className="relative bg-tan w-[17.9rem] h-[18rem] z-50  lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 "></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171805065376436284/image.png?ex=655e0382&is=654b8e82&hm=f06eea204b556f1cba540f152c30f1a32124c0c90a1326514c60eacd7b6173ab&"
                       alt="Your Image"
                       className="w-full h-full object-cover "
                     />
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[12rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[12rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
                       Ganesh Temple
                     </p>
                   </div>
                 </div>
 
                 {/* image 4 */}
-                <div className="relative bg-tan w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className="relative bg-tan w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171733609011499080/image.png?ex=655dc0f6&is=654b4bf6&hm=ecbdb35513df518708190814a7d606aacebd50c4a8f6d09a165fd31ce81c4fd5&
   "
                       alt="Your Image"
                       className="w-full h-full object-cover "
                     />
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
                       Deck Lounge
                     </p>
                   </div>
                 </div>
 
                 {/* image 5 */}
-                <div className="relative bg-tan w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className="relative bg-tan w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171792821137707129/image.png?ex=655df81b&is=654b831b&hm=2ee0032eaf47e12868fc781318527578e2f891d37473f9b1fa08a1e4b08a2730&"
                       alt="Your Image"
                       className="w-full h-full object-cover "
                     />
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
                       BBQ Area
                     </p>
                   </div>
                 </div>
 
                 {/* image 6 */}
-                <div className=" relative bg-tan w-[21rem] z-50  h-[19rem] lg:w-[26rem] lg:h-[23rem]">
+                <div className=" relative bg-tan w-[17.9rem] h-[18rem] z-50   lg:w-[26rem] lg:h-[23rem]">
                   <div className="  absolute top-0 left-0 w-full h-full bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                  <div className="relative w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                  <div className="relative w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                     <img
                       src="https://cdn.discordapp.com/attachments/1096324843877703713/1171786378556755968/image.png?ex=655df21b&is=654b7d1b&hm=4fdcbbc60c82954a17bcc7e1736499c26ad377f3de74259d7974fe09760e34f6&
   "
                       alt="Your Image"
                       className="w-full h-full object-cover "
                     />
-                    <p className="relative h-fit w-max bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
+                    <p className="relative h-fit max-w-fit bottom-[18rem] left-[8rem] lg:bottom-[23rem] lg:left-[13rem] text-[1.5rem] z-10 font-dm-serif-display text-white text-left  opacity-[0.9]">
                       Jogging Track
                     </p>
                   </div>
@@ -514,17 +514,17 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 {images.slice(0, visibleImages).map((image, index) => (
                   <div
                     key={index}
-                    className="relative bg-tan z-50 w-[21rem] h-[19rem] lg:w-[26rem] lg:h-[23rem]"
+                    className="relative bg-tan z-50 w-[17.9rem] h-[18rem] lg:w-[26rem] lg:h-[23rem]"
                   >
                     <div className="  absolute top-0 left-0  w-[19rem] h-[19rem] lg:w-[26rem] lg:h-[23rem] bg-gray-600 opacity-0 hover:opacity-100 transition-opacity duration-300 z-[-10]"></div>
-                    <div className="relative  w-[21rem] h-[19rem] lg:w-[26rem]  lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
+                    <div className="relative  w-[17.9rem] h-[18rem] lg:w-[26rem]  lg:h-[23rem] duration-[600ms]  transition-transform transform hover:translate-y-[-1rem] hover:translate-x-[0.9rem] hover:shadow-lg">
                       <img
                         src={image}
                         alt="Your Image"
                         className="w-full h-full object-cover "
                       />
                       <p
-                        className={`relative  w-[20rem] h-fit bottom-[18rem]  lg:bottom-[23rem] text-[1.5rem] z-10 font-dm-serif-display  text-left  opacity-[0.9] ${
+                        className={`relative max-w-fit  w-[20rem] h-fit bottom-[18rem]  lg:bottom-[23rem] text-[1.5rem] z-10 font-dm-serif-display  text-left  opacity-[0.9] ${
                           imageTitle[index] === "Landscape"
                             ? "text-black"
                             : "text-white"
@@ -557,9 +557,9 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
               </div>
             </div>
 
-            <div className=" sticky top-0  w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh] ">
+            <div className=" sticky top-[9rem] lg:top-0  w-[20%] h-[60vh]  lg:w-[20%]  lg:h-[77vh] ">
               <div className="relative lg:left-[17rem] top-[6rem]  left-[6rem] lg:top-[3rem] h-full   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
-                <p className="  lg:w-[27rem]  lg:bg-none  lg:text-[6rem] h-fit text-[5rem]">
+                <p className="  lg:w-[27rem]  lg:bg-none  lg:text-[6rem] h-fit text-[4.2rem]">
                   Amenities
                 </p>
               </div>
@@ -574,25 +574,25 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           id="section4"
           className="flex mt-9 bg-white h-auto md:h-auto lg:h-[90vh]"
         >
-          <div className="sticky top-0 w-[20%] bg-white h-[30vh] lg:h-[60vh]  ">
+          <div className="sticky top-0 w-[30%] bg-white h-[30vh] lg:h-[60vh]  ">
             <div className="absolute top-[15rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
-              <p className="w-[20rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4rem] ">
+              <p className="w-[20rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4.2rem] ">
                 Gallery
               </p>
             </div>
           </div>
 
-          <div className=" flex justify-center w-[80%] h-fit mb-9  lg:w-[80%]">
-            <div className="mx-auto w-fit grid gap-7 grid-cols-1 lg:grid-cols-2 h-auto">
+          <div className=" flex justify-center w-[70%] h-max mb-9  lg:w-[80%]">
+            <div className="mx-auto w-max grid gap-7 grid-cols-1 lg:grid-cols-2 h-auto">
               <div className="h-max w-[100%] mx-auto">
                 <img
-                  className="h-[15rem] max-w-[80%] lg:h-[30rem] lg:max-w-[828px] cover  rounded-lg"
+                  className="h-[19rem] max-w-[85%] lg:h-[30rem] lg:max-w-[828px] cover  rounded-lg"
                   src={selectedImage}
                   alt=""
                 />
               </div>
 
-              <div className="grid grid-rows-1 grid-cols-5 lg:grid-cols-2 gap-1 lg:gap-5 max-w-[80%] lg:max-w-[65%] h-[2rem] lg:h-fit">
+              <div className="grid grid-rows-1 grid-cols-5 lg:grid-cols-2 gap-1 lg:gap-5 max-w-[85%] lg:max-w-[65%] h-[3rem] lg:h-fit">
                 {smallImages.map((image, index) => (
                   <div
                     key={index}
@@ -600,7 +600,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                     onClick={() => setSelectedImage(image)}
                   >
                     <img
-                      className="h-auto max-w-full rounded-lg cursor-pointer hover:opacity-75 transition duration-300 ease-in-out"
+                      className="h-[3.2rem] max-w-full rounded-lg cursor-pointer hover:opacity-75 transition duration-300 ease-in-out"
                       src={image}
                       alt=""
                     />
@@ -801,17 +801,17 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
         >
           <div className=" w-[80%] h-auto">
             <div className="flex items-center justify-center h-[100%]  w-[100%]">
-              <div className="grid grid-cols-2 h-fit mt-[7rem] ml-[4rem]  w-fit gap-24">
+              <div className="grid  lg:grid-cols-2 h-fit mt-[7rem] ml-[4rem]  w-fit gap-0 lg:gap-24">
                 <div className="">
                   <img
-                    className="h-[30rem] w-[37rem]"
+                    className="w-[100%] h-auto lg:h-[30rem] lg:w-[37rem]"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172801254121013288/2.png?ex=6561a348&is=654f2e48&hm=ddc89fe911dbce6259cbf828af8dbd68094cbc273eb24925ace8ff9d8aad0c1d&"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    className="h-[30rem] w-[37rem]"
+                    className="w-[100%] h-auto lg:h-[30rem] lg:w-[37rem]"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172801254985060412/1.png?ex=6561a348&is=654f2e48&hm=66bdc945e2721525247c8b429498ff59fa208eab863ebe8deb3fb60d3377980b&"
                     alt=""
                   />
@@ -913,7 +913,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
 
         {/* footer */}
         <div className="h-[40vh] w-fit mx-auto mt-7 ">
-         <img className="h-auto w-[1400px] mx-auto  object-contain" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&" alt="" />
+         <img className="h-auto w-full lg:w-[1400px] mx-auto  object-contain" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&" alt="" />
         </div>
       </div>
 
