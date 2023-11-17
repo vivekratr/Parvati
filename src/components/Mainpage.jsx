@@ -1,6 +1,6 @@
 import Header from "./Header";
 
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import Corousel from "./Corousel";
 import ScrollCarousel from "./ScrollCorousel";
 import ScrollReverse from "./ScrollReverse";
@@ -43,7 +43,7 @@ export default function Mainpage() {
     "https://cdn.discordapp.com/attachments/1096324843877703713/1169889030075326545/image_12.png?ex=65570b10&is=65449610&hm=15386f2762e0011dbe26eae3f532949505320da5aab46cec39e877b613a1acd4&";
 
   const [backgroundImage, setBackgroundImage] = useState(backgroundImageUrl);
-  const [screenSize, setScreenSize] = useState("");
+  // const [screenSize, setScreenSize] = useState("");
   const [page3Selector, setPage3Selector] = useState(0);
 
   const backgroundStyles = {
@@ -251,14 +251,14 @@ export default function Mainpage() {
       <div>
         <div
           className="relative  lg:h-full
-      bg-center object-cover max-w-full  h-auto  md:min-h-[220vh] min-h-[170vh]  lg:min-h-[120vh]"
+      bg-center object-cover max-w-full  h-auto xs:min-h-max md:min-h-[220vh] min-h-[170vh]  lg:min-h-[120vh]"
           style={backgroundStyles}
         >
           <Header a={setShowModal} />
           {/* <Button>Button</Button>; */}
           {/* <h1 className="color-white">Mainpage</h1> */}
           <div className="  w-full h-auto flex  flex-wrap  justify-between">
-            <div className=" ml-0  w-[100%]  h-max lg:max-w-[40%] flex justify-around ">
+            <div className=" ml-0  w-[100%] xs:h-auto  h-max lg:max-w-[40%] flex justify-around ">
               {/* right side content */}
               <div
                 style={{ borderRadius: "32px" }}
@@ -328,7 +328,7 @@ export default function Mainpage() {
               </div>
             </div>
             {/*left side carousel */}
-            <div className=" h-[60%] w-[90%]  md:h-[100%] lg:min-h[36rem] mx-auto  flex my-[24rem]  mb-8 lg:mb:0 lg:mx-0 lg:my-0  lg:h-[36rem]  lg:max-w-[60%]">
+            <div className=" h-[60%] w-[90%] xs:h-auto xs:min-h-max xs:max-h-max  md:h-[100%] lg:min-h[36rem] mx-auto  flex my-[24rem] xs:my-[3rem]  mb-8 lg:mb:0 lg:mx-0 lg:my-0  lg:h-[36rem]  lg:max-w-[60%]">
               {/* <Corousell >
         {slides.map((slide) => (
             <img

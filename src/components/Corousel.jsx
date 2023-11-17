@@ -2,7 +2,7 @@ import { Carousel } from "@material-tailwind/react";
 import DialogWithImage from "./PopOut";
 
 export default function CarouselCustomNavigation() {
-  const ImgStyle = { objectFit: "cover",maxWidth:`100%`,height:`auto`};
+  // const ImgStyle = { objectFit: "cover",maxWidth:`100%`,height:`auto`};
   const imgUrl = ['https://cdn.discordapp.com/attachments/1096324843877703713/1172818558527479839/1.png?ex=6561b366&is=654f3e66&hm=9032d997f23eaa885dd885a8bcc271ed041eb5f56463472628f4ebc3ee1dc7b3&',
 'https://cdn.discordapp.com/attachments/1096324843877703713/1172818559278272522/3.png?ex=6561b366&is=654f3e66&hm=cde5d8d13067362e134eac734b89f060ee021161c3fd65798021fb09329212de&',
 'https://cdn.discordapp.com/attachments/1096324843877703713/1172818560079364156/5.png?ex=6561b366&is=654f3e66&hm=be3bf3be31fbe806a36b873cd554149be1ba0f9c0bb86798c6da6ef67195fda5&',
@@ -11,7 +11,7 @@ export default function CarouselCustomNavigation() {
 ]
   return (
     <Carousel
-      className="rounded-3xl  overflow-hidden   w-[100%] h-[39rem]  lg:w-[100%] lg:h-[100%] relative z-20"
+      className="rounded-3xl  overflow-hidden   w-[100%] h-[30rem]  lg:w-[100%] lg:h-[100%] relative z-20"
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="relative bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
@@ -37,7 +37,7 @@ export default function CarouselCustomNavigation() {
     
       /> */}
       {imgUrl.map( (img)=>{
-        return <DialogWithImage url={img}/>
+        return <DialogWithImage key={img*100} url={img}/>
       } )}
        {/* <img
         src="https://media.discordapp.net/attachments/1096324843877703713/1170620628412403772/image.png?ex=6559b46a&is=65473f6a&hm=c260b6f0c4a6f0bb15e99afa9920d232a8403bf9f17536d1d78174ef6bdfcdf6&=&width=971&height=662"
