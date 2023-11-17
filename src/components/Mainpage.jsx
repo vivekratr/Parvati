@@ -573,7 +573,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           id="section4"
           className="flex mt-9 bg-white h-auto md:h-auto lg:h-[90vh]"
         >
-          <div className="sticky top-[1rem] lg:top-0 w-[30%] bg-white h-[24vh] lg:h-[60vh]  ">
+          <div className="sticky top-[21rem] lg:top-0 w-[30%] bg-white h-[25vh] lg:h-[60vh]  ">
             <div className="absolute top-[15rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[20rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4.2rem] ">
                 Gallery
@@ -657,7 +657,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
           ${
             page3Selector === 2
               ? "ml-[20rem] lg:grid-cols-1"
-              : "lg:grid-cols-2 ml-12 "
+              : "lg:grid-cols-2 ml-0 lg:ml-12 "
           }`}
             >
               <div className="w-[20rem] h-[20rem] mb-14 lg:w-[33rem] lg:h-[24rem]">
