@@ -653,11 +653,11 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
             </div>
 
             <div
-              className={`grid grid-cols-1 h-fit  gap-y-[1rem] mt-40  
+              className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-40  
           ${
             page3Selector === 2
               ? "ml-[20rem] lg:grid-cols-1"
-              : "lg:grid-cols-2 ml-0 lg:ml-12 "
+              : "lg:grid-cols-2 ml-4 lg:ml-12 "
           }`}
             >
               <div className="w-[20rem] h-[20rem] mb-14 lg:w-[33rem] lg:h-[24rem]">
@@ -668,7 +668,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                   }}
                   src={page3ImgObj[page3Selector][0]}
                   alt="Your Image"
-                  className="w-[100%] h-full object-fill "
+                  className="w-[100%] h-full object-contain "
                 />
               </div>
 
@@ -684,7 +684,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
             </div>
           </div>
 
-          <div className=" sticky top-0  w-[0%] h-[50vh]  lg:h-[77vh] ">
+          <div className=" sticky top-[16rem] lg:top-0  w-[20%] h-[45vh]  lg:h-[77vh] ">
             <div className="relative  lg:left-[17rem] top-[1rem]  left-[6rem] lg:top-[3rem] h-fit   font-dm-serif-display text-white  [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
               <p className="  lg:w-[27rem] w-max  lg:bg-none  lg:text-[6rem] h-fit text-[5rem]">
                 Unit Plans
