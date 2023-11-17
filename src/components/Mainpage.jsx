@@ -10,7 +10,7 @@ import HoverImage from "./HoverImg";
 import Modal from "./Modal";
 // import TransitionExample from './Dialog'
 // import { Link } from "react-scroll";
-import DialogWithImage from './PopOut'
+import DialogWithImage from "./PopOut";
 
 export default function Mainpage() {
   // modal
@@ -660,7 +660,13 @@ export default function Mainpage() {
               : "lg:grid-cols-2 ml-4 lg:ml-12 "
           }`}
             >
-              <div className={` mb-14  ${page3Selector===2? 'w-[18rem] h-[20rem] lg:w-[85rem] lg:h-auto':"w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"}`}>
+              <div
+                className={` mb-14  ${
+                  page3Selector === 2
+                    ? "w-[18rem] h-[20rem] lg:w-[85rem] lg:h-auto"
+                    : "w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"
+                }`}
+              >
                 {/* <img
                   onClick={() => {
                     console.log(page3ImgObj[page3Selector]);
@@ -669,7 +675,7 @@ export default function Mainpage() {
                   alt="Your Image"
                   className="w-[100%] h-full object-contain "
                 /> */}
-                <DialogWithImage  url={page3ImgObj[page3Selector][0]}/>
+                <DialogWithImage url={page3ImgObj[page3Selector][0]} />
               </div>
 
               {page3ImgObj[page3Selector][1] && (
@@ -679,8 +685,7 @@ export default function Mainpage() {
                     alt="Your Image"
                     className="w-[100%] h-full object-fill "
                   /> */}
-                <DialogWithImage  url={page3ImgObj[page3Selector][1]}/>
-
+                  <DialogWithImage url={page3ImgObj[page3Selector][1]} />
                 </div>
               )}
             </div>
@@ -696,7 +701,10 @@ export default function Mainpage() {
         </div>
 
         {/* 6th page */}
-        <div id="section6" className="flex mt-9 bg-white h-auto min-h-max xs:min-h-[60rem]">
+        <div
+          id="section6"
+          className="flex mt-9 bg-white h-auto min-h-max xs:min-h-[60rem]"
+        >
           <div className="sticky top-14 lg:top-0 w-[20%] lg:w-[10%] bg-white h-[56vh] lg:h-[70vh]  ">
             <div className="absolute left-2 lg:left-0 top-[19rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[18rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[3rem] ">
@@ -747,7 +755,7 @@ export default function Mainpage() {
                 </div>
               </div>
               <div
-                className={`absolute top-[0rem]  xs:left-[50%] w-[50%]  left-[8.5rem] rounded-[32px]  h-[3.69rem] overflow-hidden cursor-pointer ${
+                className={`absolute top-[0rem]  xs:left-[50%] w-[50%]  left-[8.5rem] rounded-[32px]  h-[2.69rem] overflow-hidden cursor-pointer ${
                   isVirualTourSelected
                     ? "bg-gray-200 text-black"
                     : "bg-yellow-600 text-white"
@@ -759,9 +767,9 @@ export default function Mainpage() {
                 </div>
               </div>
             </div>
-            <div className="absolute text-[1.75rem] mb-3 lg:w-[80%] w-[100%] h-auto font-dm-serif-display text-yellow-700 text-left mt-6">
+            <div className="relative text-[1.75rem] left-5 mb-3 lg:w-[80%] w-[100%] h-auto font-dm-serif-display text-yellow-700 text-left mt-6">
               {isVirualTourSelected ? (
-                <div className="relative  w-[80%] mx-auto  text-[0.8em] h-fit font-dm-serif-display text-yellow-700 text-center">
+                <div className="relative   lg:w-[80%] mx-auto  text-[0.8em] h-fit font-dm-serif-display text-yellow-700 text-center">
                   <video
                     className="w-full h-full"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172621248740724826/WhatsApp_Video_2023-11-02_at_22.18.52_07ded8c6.mp4?ex=6560fba3&is=654e86a3&hm=f16e737b096b653b347a7c8a06cee6224c2024e2a40d37b4b9acdd15f55f6a56&"
@@ -769,9 +777,9 @@ export default function Mainpage() {
                   ></video>
                 </div>
               ) : (
-                <div className="relative w-[50%] mx-auto  h-fit font-dm-serif-display text-yellow-700 text-center">
+                <div className="relative w-[100%] mx-auto  h-fit font-dm-serif-display text-yellow-700 text-center">
                   <img
-                    className="w-full h-[80vh]"
+                    className="w-full h-auto lg:h-[80vh] object-contain"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172826016247455804/WhatsApp_Image_2023-11-02_at_22.18.53_146fd8f8.jpg?ex=6561ba58&is=654f4558&hm=674a997c1870328e84e78706899cc78f406e9999a7619249401a93a787ec72f0&"
                     alt=""
                   />
@@ -780,8 +788,8 @@ export default function Mainpage() {
             </div>
           </div>
 
-          <div className="relative lg:left-[17rem] top-[2rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
-            <div className="sticky top-0 w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
+          <div className="relative lg:left-[17rem] top-[0rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
+            <div className="sticky  w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
               <p className="  lg:w-[34rem] w-[20rem]  lg:bg-none  lg:text-[6rem] h-fit text-[3rem]">
                 {isVirualTourSelected ? " Virtual Tour" : "360 view"}
               </p>
