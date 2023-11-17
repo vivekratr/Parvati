@@ -732,17 +732,17 @@ export default function Mainpage() {
           id="section7"
           className="flex mt-9 bg-lightgray h-auto md:h-auto lg:h-auto"
         >
-          <div className="w-[80%] h-[114vh] ">
+          <div className="w-[70%] h-auto lg:h-[114vh] ">
             <div className="relative rounded-[32px] mt-8  bg-gray-200 md:w-[100%] w-[100%] lg:mx-auto lg:w-[80%] lg:h-auto  h-[2.69rem] overflow-hidden text-left text-[1.25rem] text-darkolivegreen font-dm-serif-display">
               <div
-                className={`relative top-[0rem] left-[0rem] rounded-[32px] w-[50%] h-[3.69rem]  overflow-hidden cursor-pointer ${
+                className={`relative top-[0rem] left-[0rem] rounded-[32px] w-[50%] h-[2.69rem]  overflow-hidden cursor-pointer ${
                   isVirualTourSelected
                     ? "bg-yellow-600 text-white"
                     : "bg-gray-200 text-black"
                 }`}
                 onClick={handleToggleVirtualTour}
               >
-                <div className="xs:text-[1.4rem]  mx-auto w-fit h-fit xs:pt-2 xs:pl-5 xs:text-left text-center pt-1">
+                <div className="xs:text-[1.1rem]  mx-auto w-fit h-fit xs:pt-2 xs:pl-5 xs:text-left text-center pt-1">
                   Virtual Tour
                 </div>
               </div>
@@ -754,7 +754,7 @@ export default function Mainpage() {
                 }`}
                 onClick={handleToggleVirtualTour}
               >
-                <div className=" xs:text-[1.4rem] h-fit mx-auto w-fit  sm:text-[0.9rem] xs:pt-2 xs:pl-5 xs:text-left  text-center pt-1">
+                <div className=" xs:text-[1.1rem] h-fit mx-auto w-fit  sm:text-[0.9rem] xs:pt-2 xs:pl-5 xs:text-left  text-center pt-1">
                   360 View
                 </div>
               </div>
