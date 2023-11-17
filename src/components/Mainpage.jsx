@@ -686,7 +686,7 @@ export default function Mainpage() {
             </div>
           </div>
 
-          <div className=" sticky top-[16rem] lg:top-0  w-[20%] h-[45vh]  lg:h-[77vh] ">
+          <div className=" sticky top-[16rem] lg:top-0  w-[20%] h-[58vh]  lg:h-[77vh] ">
             <div className="relative  lg:left-[17rem] top-[1rem]  left-[6rem] lg:top-[3rem] h-fit   font-dm-serif-display text-white  [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
               <p className="  lg:w-[27rem] w-max  lg:bg-none  lg:text-[6rem] h-fit text-[5rem]">
                 Unit Plans
@@ -696,13 +696,13 @@ export default function Mainpage() {
         </div>
 
         {/* 6th page */}
-        <div id="section6" className="flex mt-9 bg-white h-auto">
-          <div className="sticky top-0 w-[20%] lg:w-[10%] bg-white h-[30vh] lg:h-auto  ">
-            <div className="absolute top-[19rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
-              <p className="w-[18rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4rem] ">
+        <div id="section6" className="flex mt-9 bg-white h-auto min-h-max xs:min-h-[60rem]">
+          <div className="sticky top-0 w-[20%] lg:w-[10%] bg-white h-[30vh] lg:h-[70vh]  ">
+            <div className="absolute left-2 lg:left-0 top-[19rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
+              <p className="w-[18rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[3rem] ">
                 Location
               </p>
-              <div className=" relative right-5  bottom-[5rem] [transform:_rotate(-270deg)] [transform-origin:0_0] opacity-[1]  max-h-[5rem] w-[5rem]  ">
+              <div className=" relative right-5 bottom-[3.2rem]  lg:bottom-[5rem] [transform:_rotate(-270deg)] [transform-origin:0_0] opacity-[1]  max-h-[5rem] h-auto w-[3rem] lg:w-[5rem]  ">
                 <img
                   alt="nature"
                   className="h-[90%]  opacity-[1] max-h-[86%] lg:max-h-[86%] relative lg:right-4 w-[92%] lg:h-[90%] lg:max-w-[90%] bg-none rounded-lg  object-fill object-center"
@@ -712,7 +712,7 @@ export default function Mainpage() {
             </div>
           </div>
 
-          <div className="w-[80%] h-auto ">
+          <div className="w-[80%] h-auto  ">
             <div className="grid grid-cols-2 gap-x-4  lg:grid-cols-3 lg:gap-10">
               {locationImg.map((img, index) => {
                 return (
