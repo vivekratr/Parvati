@@ -113,7 +113,6 @@ export default function Mainpage() {
     if (is2BHKSelected === false) {
       setIs2BHKSelected(!is2BHKSelected);
     }
-    setIs2BHKSelected(!is2BHKSelected);
     setIs1BHKSelecteds(false);
     setIsJodiSelected(false);
   };
@@ -614,7 +613,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
         {/* 5th page */}
         <div id="section5" className="flex mt-9 bg-lightgray h-auto">
           <div className="w-[80%] h-auto ">
-            <div className="relative mx-auto rounded-[23px] mt-8 bg-gray-200 md:w-[80%] w-[80%] lg:w-[70%] h-[3.69rem] overflow-hidden text-left text-[1.25rem] text-darkolivegreen font-dm-serif-display">
+            <div className="relative mx-auto rounded-[32px] mt-8 bg-gray-200 md:w-[80%] w-[80%] lg:w-[70%] h-[3.69rem] overflow-hidden text-left text-[1.25rem] text-darkolivegreen font-dm-serif-display">
               <div
                 className={`relative top-[0rem]  left-[0rem] rounded-[32px] w-1/3 h-[3.69rem] overflow-hidden cursor-pointer ${
                   is1BHKSelecteds
@@ -623,7 +622,7 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 }`}
                 onClick={handle1BHKToggle}
               >
-                <div className="xs:text-[0.9rem] mx-auto w-fit h-fit xs:pt-2 xs:pl-5 xs:text-left text-center  mt-3 pt-1">
+                <div className="xs:text-[0.8rem] mx-auto w-fit h-fit xs:pt-2 xs:pl-5 xs:text-left text-center  mt-3 pt-1">
                   Unit Plan
                 </div>
               </div>
@@ -635,19 +634,19 @@ Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
                 }`}
                 onClick={handleJodiToggle}
               >
-                <div className="xs:text-[0.9rem] h-fit mx-auto w-fit sm:text-[0.9rem] xs:pt-2 xs:pl-5 xs:text-left  text-center  mt-3 pt-1">
+                <div className="xs:text-[0.8rem] h-fit mx-auto w-fit sm:text-[0.9rem] xs:pt-2 xs:pl-0 xs:text-left  text-center  mt-3 pt-1">
                   Master Plan
                 </div>
               </div>
               <div
                 className={`absolute top-[0rem]  xs:left-2/3 w-1/3  left-[16rem] rounded-[32px]  h-[3.69rem] overflow-hidden cursor-pointer ${
-                  !is2BHKSelected
-                    ? "bg-gray-200 text-black"
-                    : "bg-yellow-600 text-white"
+                  is2BHKSelected
+                  ? " bg-yellow-600 text-white"
+                  : "bg-gray-200 text-black"
                 }`}
                 onClick={handle2BHKToggle}
               >
-                <div className="xs:text-[0.9rem] h-fit mx-auto w-fit sm:text-[0.9rem] xs:pt-2 xs:pl-5 xs:text-left  text-center mt-3 pt-1">
+                <div className="xs:text-[0.8rem] h-fit mx-auto w-fit sm:text-[0.9rem] xs:pt-2 xs:pl-0 xs:text-left  text-center mt-3 pt-1">
                   Floor Plan
                 </div>
               </div>
