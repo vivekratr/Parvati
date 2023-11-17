@@ -697,7 +697,7 @@ export default function Mainpage() {
 
         {/* 6th page */}
         <div id="section6" className="flex mt-9 bg-white h-auto min-h-max xs:min-h-[60rem]">
-          <div className="sticky top-0 w-[20%] lg:w-[10%] bg-white h-[30vh] lg:h-[70vh]  ">
+          <div className="sticky top-14 lg:top-0 w-[20%] lg:w-[10%] bg-white h-[56vh] lg:h-[70vh]  ">
             <div className="absolute left-2 lg:left-0 top-[19rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[18rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[3rem] ">
                 Location
