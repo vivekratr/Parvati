@@ -759,7 +759,7 @@ export default function Mainpage() {
                 </div>
               </div>
             </div>
-            <div className="absolute text-[1.75rem] mb-3 lg:w-[80%] h-auto font-dm-serif-display text-yellow-700 text-left mt-6">
+            <div className="absolute text-[1.75rem] mb-3 lg:w-[80%] w-[100%] h-auto font-dm-serif-display text-yellow-700 text-left mt-6">
               {isVirualTourSelected ? (
                 <div className="relative  w-[80%] mx-auto  text-[0.8em] h-fit font-dm-serif-display text-yellow-700 text-center">
                   <video
@@ -780,9 +780,9 @@ export default function Mainpage() {
             </div>
           </div>
 
-          <div className="relative lg:left-[17rem] top-[6rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
+          <div className="relative lg:left-[17rem] top-[2rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
             <div className="sticky top-0 w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
-              <p className="  lg:w-[34rem]  lg:bg-none  lg:text-[6rem] h-fit text-[5rem]">
+              <p className="  lg:w-[34rem] w-[20rem]  lg:bg-none  lg:text-[6rem] h-fit text-[3rem]">
                 {isVirualTourSelected ? " Virtual Tour" : "360 view"}
               </p>
             </div>
