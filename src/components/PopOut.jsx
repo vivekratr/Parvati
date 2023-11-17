@@ -10,109 +10,103 @@ import {
   Typography,
   Card,
 } from "@material-tailwind/react";
-
+ 
 export default function DialogWithImage(props) {
-  const theme = {
-    dialog: {
-      defaultProps: {
-        size: "md",
-        dismiss: {},
-        animate: {
-          unmount: {},
-          mount: {},
-        },
-        className: "",
-      },
-      valid: {
-        sizes: ["xs", "sm", "md", "lg", "xl", "xxl"],
-      },
-      styles: {
-        base: {
-          backdrop: {
-            display: "grid",
-            placeItems: "place-items-center",
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "w-[100%]",
-            height: "h-screen",
-            backgroundColor: "bg-none",
-            backgroundOpacity: "bg-opacity-60",
-            backdropFilter: "backdrop-blur-sm",
+    
+    const theme = {
+        dialog: {
+          defaultProps: {
+            size: "md",
+            dismiss: {},
+            animate: {
+              unmount: {},
+              mount: {},
+            },
+            className: "",
           },
-          container: {
-            position: "relative",
-            bg: "bg-white",
-            m: "m-4",
-            borderRadius: "rounded-lg",
-            boxShadow: "shadow-2xl",
-            color: "text-blue-gray-500",
-            fontSmoothing: "antialiased",
-            fontFamily: "font-sans",
-            fontSize: "text-base",
-            fontWeight: "font-light",
-            lineHeight: "leading-relaxed",
+          valid: {
+            sizes: ["xs", "sm", "md", "lg", "xl", "xxl"],
           },
-        },
-        sizes: {
-          xs: {
-            width: "w-[5%] md:w-3/5 lg:w-2/5 2xl:w-1/4",
-            minWidth:
-              "min-w-[5%] md:min-w-[60%] lg:min-w-[40%] 2xl:min-w-[25%]",
-            maxWidth:
-              "max-w-[5%] md:max-w-[60%] lg:max-w-[40%] 2xl:max-w-[25%]",
-          },
-          sm: {
-            width: "w-[5%] md:w-2/3 lg:w-2/4 2xl:w-1/3",
-            minWidth:
-              "min-w-[5%] md:min-w-[66.666667%] lg:min-w-[50%] 2xl:min-w-[33.333333%]",
-            maxWidth:
-              "max-w-[5%] md:max-w-[66.666667%] lg:max-w-[50%] 2xl:max-w-[33.333333%]",
-          },
-          md: {
-            width: "w-[5%] md:w-3/4 lg:w-3/5 2xl:w-2/5",
-            minWidth:
-              "min-w-[50%] md:min-w-[75%] lg:min-w-[60%] 2xl:min-w-[40%]",
-            maxWidth:
-              "max-w-[5%] md:max-w-[75%] lg:max-w-[60%] 2xl:max-w-[40%]",
-          },
-          lg: {
-            width: "w-[60%] md:w-5/6 lg:w-3/4 2xl:w-3/5",
-            minWidth:
-              "min-w-[50%] md:min-w-[83.333333%] lg:min-w-[75%] 2xl:min-w-[60%]",
-            maxWidth:
-              "max-w-[50%] md:max-w-[83.333333%] lg:max-w-[75%] 2xl:max-w-[60%]",
-          },
-          xl: {
-            width: "w-50% md:w-5/6 2xl:w-3/4",
-            minWidth: "min-w-[50%] md:min-w-[83.333333%] 2xl:min-w-[75%]",
-            maxWidth: "max-w-[95%] md:max-w-[83.333333%] 2xl:max-w-[75%]",
-          },
-          xxl: {
-            display: "flex",
-            flexDirection: "flex-col",
-            width: "w-screen",
-            minWidth: "min-w-[100vw]",
-            maxWidth: "max-w-[100vw]",
-            height: "h-screen",
-            minHeight: "min-h-[100vh]",
-            maxHeight: "max-h-[100vh]",
-            m: "m-0",
-            borderRadius: "rounded-none",
+          styles: {
+            base: {
+              backdrop: {
+                display: "grid",
+                placeItems: "place-items-center",
+                position: "fixed",
+                top: 0,
+                left: 0,
+                width: "w-[100%]",
+                height: "h-screen",
+                backgroundColor: "bg-none",
+                backgroundOpacity: "bg-opacity-60",
+                backdropFilter: "backdrop-blur-sm",
+              },
+              container: {
+                position: "relative",
+                bg: "bg-white",
+                m: "m-4",
+                borderRadius: "rounded-lg",
+                boxShadow: "shadow-2xl",
+                color: "text-blue-gray-500",
+                fontSmoothing: "antialiased",
+                fontFamily: "font-sans",
+                fontSize: "text-base",
+                fontWeight: "font-light",
+                lineHeight: "leading-relaxed",
+              },
+            },
+            sizes: {
+              xs: {
+                width: "w-[5%] md:w-3/5 lg:w-2/5 2xl:w-1/4",
+                minWidth: "min-w-[5%] md:min-w-[60%] lg:min-w-[40%] 2xl:min-w-[25%]",
+                maxWidth: "max-w-[5%] md:max-w-[60%] lg:max-w-[40%] 2xl:max-w-[25%]",
+              },
+              sm: {
+                width: "w-[5%] md:w-2/3 lg:w-2/4 2xl:w-1/3",
+                minWidth: "min-w-[5%] md:min-w-[66.666667%] lg:min-w-[50%] 2xl:min-w-[33.333333%]",
+                maxWidth: "max-w-[5%] md:max-w-[66.666667%] lg:max-w-[50%] 2xl:max-w-[33.333333%]",
+              },
+              md: {
+                width: "w-[5%] md:w-3/4 lg:w-3/5 2xl:w-2/5",
+                minWidth: "min-w-[50%] md:min-w-[75%] lg:min-w-[60%] 2xl:min-w-[40%]",
+                maxWidth: "max-w-[5%] md:max-w-[75%] lg:max-w-[60%] 2xl:max-w-[40%]",
+              },
+              lg: {
+                width: "w-[60%] md:w-5/6 lg:w-3/4 2xl:w-3/5",
+                minWidth: "min-w-[50%] md:min-w-[83.333333%] lg:min-w-[75%] 2xl:min-w-[60%]",
+                maxWidth: "max-w-[50%] md:max-w-[83.333333%] lg:max-w-[75%] 2xl:max-w-[60%]",
+              },
+              xl: {
+                width: "w-50% md:w-5/6 2xl:w-3/4",
+                minWidth: "min-w-[50%] md:min-w-[83.333333%] 2xl:min-w-[75%]",
+                maxWidth: "max-w-[95%] md:max-w-[83.333333%] 2xl:max-w-[75%]",
+              },
+              xxl: {
+                display: "flex",
+                flexDirection: "flex-col",
+                width: "w-screen",
+                minWidth: "min-w-[100vw]",
+                maxWidth: "max-w-[100vw]",
+                height: "h-screen",
+                minHeight: "min-h-[100vh]",
+                maxHeight: "max-h-[100vh]",
+                m: "m-0",
+                borderRadius: "rounded-none",
+              },
+            },
           },
         },
-      },
-    },
-  };
-
+      };
+      
   const [open, setOpen] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
-
+ 
   const handleOpen = () => setOpen((cur) => !cur);
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
 
-  const ImgStyle = { objectFit: "fill", maxWidth: `100%`, height: `100%` };
+  const ImgStyle = { objectFit: "fill",maxWidth:`100%`,height:`100%`};
 
+ 
   return (
     <>
       <Card
@@ -122,19 +116,12 @@ export default function DialogWithImage(props) {
         <img
           alt="nature"
           className="w-full object-contain "
-          //   className="h-[1580px] w-[1600px] object-cover object-center"
+        //   className="h-[1580px] w-[1600px] object-cover object-center"
           src={props.url}
           style={ImgStyle}
         />
       </Card>
-      <Dialog
-        size="xl"
-        style={theme.dialog.styles}
-        onClick={handleOpen}
-        className="  bg-none max-h-[30rem] lg:max-h-[40rem]   "
-        open={open}
-        handler={handleOpen}
-      >
+       <Dialog size="xl"  style={theme.dialog.styles} onClick={handleOpen}  className="  bg-none max-h-[30rem] lg:max-h-[40rem]   " open={open} handler={handleOpen}>
         {/* <DialogHeader className="justify-between relative">
           <div className="absolute h-[10rem] w-[10rem] flex items-center gap-3">
             <Avatar
