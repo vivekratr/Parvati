@@ -251,7 +251,7 @@ export default function Mainpage() {
           <Header a={setShowModal} />
           {/* <Button>Button</Button>; */}
           {/* <h1 className="color-white">Mainpage</h1> */}
-          <div className="  w-full h-auto flex  flex-wrap  justify-between">
+          <div className="  w-full h-auto flex  flex-wrap xs:gap-0  justify-between">
             <div className=" ml-0  w-[100%] xs:h-auto  h-max lg:max-w-[40%] flex justify-around ">
               {/* right side content */}
               <div
@@ -322,7 +322,7 @@ export default function Mainpage() {
               </div>
             </div>
             {/*left side carousel */}
-            <div className=" h-[60%] w-[90%] xs:h-auto xs:min-h-max xs:max-h-max  md:h-[100%] lg:min-h[36rem] mx-auto  flex my-[24rem] xs:my-[3rem]  mb-8 lg:mb:0 lg:mx-0 lg:my-0  lg:h-[36rem]  lg:max-w-[60%]">
+            <div className=" h-[60%] w-[90%] xs:h-auto xs:min-h-max xs:max-h-max  md:h-[100%] lg:min-h[36rem] mx-auto  flex my-[24rem] xs:my-[13rem]  mb-8 lg:mb:0 lg:mx-0 lg:my-0  lg:h-[36rem]  lg:max-w-[60%]">
               {/* <Corousell >
         {slides.map((slide) => (
             <img
