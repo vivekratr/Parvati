@@ -46,7 +46,7 @@ module.exports = withMT({
         'ease-out': 'cubic-bezier(0, 0, 0.2, 1)',
       },
       screens: {
-        xs: "379px", // Custom screen size for smaller than 'sm'
+        xs: "375px", // Custom screen size for smaller than 'sm'
       },
       colors: {
         tan: "#bcad93",

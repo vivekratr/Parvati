@@ -251,7 +251,7 @@ export default function Mainpage() {
           <Header a={setShowModal} />
           {/* <Button>Button</Button>; */}
           {/* <h1 className="color-white">Mainpage</h1> */}
-          <div className="  w-full h-auto flex  flex-wrap xs:gap-0  justify-between">
+          <div className="  w-full h-auto flex  flex-wrap xs:gap-0 xs:justify-around xs:items-center  justify-between">
             <div className=" ml-0  w-[100%] xs:h-auto  h-max lg:max-w-[40%] flex justify-around ">
               {/* right side content */}
               <div
