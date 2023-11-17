@@ -17,13 +17,15 @@ export default function Mainpage() {
   const [showAlert, setShowAlert] = useState(false);
   const [isPdfQuery, setIsPdfQuery] = useState(false);
 
-  const phoneNumber = "9870303003";
+  const phoneNumber = '9870303003';
 
   const handleWhatsAppClick = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
-    window.open(whatsappUrl, "_blank");
+    window.open(whatsappUrl, '_blank');
   };
+
+ 
 
   const [selectedImage, setSelectedImage] = useState(
     "https://cdn.discordapp.com/attachments/1096324843877703713/1172833940936065084/framing-landscape-while-traveling.jpg?ex=6561c1b9&is=654f4cb9&hm=a73075c37be4b9d75c1e12a00c9a55bc0c0ab4b6ddaa6602f72dcdd62c29155a&"
@@ -46,12 +48,13 @@ export default function Mainpage() {
 
   const backgroundStyles = {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundSize:"cover",
+    backgroundRepeat:"no-repeat",
+    backgroundPosition:"center",
   };
 
   const [images, setImages] = useState([
+    
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733523263131678/image.png?ex=655dc0e1&is=654b4be1&hm=be1350cdf701589eaa7a0b7575597a4a47469f5eb7ab84f2e43a383417beeca1&",
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733129459924992/image.png?ex=655dc083&is=654b4b83&hm=04f08b0d09b3a77b590ddf0fe85ce08230da9fbbd68ad15b4ac45a8a475d25f8&",
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733523946815488/image.png?ex=655dc0e1&is=654b4be1&hm=e9f3dd804054d34dc814b4b45e580a6fa49c839640d795698d5bc0b20d8432b7&",
@@ -72,6 +75,8 @@ export default function Mainpage() {
   const loadMoreImages = () => {
     setVisibleImages((prevVisibleImages) => prevVisibleImages + 6);
   };
+
+ 
 
   // const slides = [
   //   "https://cdn.discordapp.com/attachments/1096324843877703713/1170449806326509629/image.png?ex=65591553&is=6546a053&hm=39a63eb208dc06999a7b2deb3b330813fbe72caa16364ab341a2e7ff40b6f350&",
@@ -186,6 +191,7 @@ export default function Mainpage() {
       `Muchhala Polytechnic - 2.4 km.`,
       `DG International School - 2.7 km.`,
       ` New Horizon Scholars School - 2.9 km.`,
+      
     ],
     4: [
       `HOSPITALS`,
@@ -214,17 +220,17 @@ export default function Mainpage() {
   //   function getScreenSize() {
   //     const innerWidth = window.innerWidth;
   //     console.log("innerWidth", innerWidth);
-
+  
   //     if (innerWidth >= 1200) {
   //       setScreenSize("large");
   //       return "large";
   //     } else if (innerWidth >= 768) {
   //       setScreenSize("medium");
-
+  
   //       return "medium";
   //     } else {
   //       setScreenSize("small");
-
+  
   //       console.log("small");
   //       return "small";
   //     }
@@ -245,13 +251,13 @@ export default function Mainpage() {
       <div>
         <div
           className="relative  lg:h-full
-      bg-center object-cover max-w-full  h-auto xs:min-h-max md:min-h-[220vh] min-h-[170vh]  lg:min-h-[120vh]"
+      bg-center object-cover max-w-full  h-auto  md:min-h-[220vh] min-h-[170vh]  lg:min-h-[120vh]"
           style={backgroundStyles}
         >
           <Header a={setShowModal} />
           {/* <Button>Button</Button>; */}
           {/* <h1 className="color-white">Mainpage</h1> */}
-          <div className="  w-full h-auto flex  flex-wrap xs:gap-0 xs:justify-around xs:items-center  justify-between">
+          <div className="  w-full h-auto flex  flex-wrap  justify-between">
             <div className=" ml-0  w-[100%] xs:h-auto  h-max lg:max-w-[40%] flex justify-around ">
               {/* right side content */}
               <div
@@ -322,7 +328,7 @@ export default function Mainpage() {
               </div>
             </div>
             {/*left side carousel */}
-            <div className=" h-[60%] w-[90%] xs:h-auto xs:min-h-max xs:max-h-max  md:h-[100%] lg:min-h[36rem] mx-auto  flex my-[24rem] xs:my-[13rem]  mb-8 lg:mb:0 lg:mx-0 lg:my-0  lg:h-[36rem]  lg:max-w-[60%]">
+            <div className="mx-auto mb-8 my-[3rem] lg:mb-0 lg:mx-0 lg:my-0 lg:h-[36rem] lg:max-w-[60%] h-[60%] lg:min-h-[36rem] md:h-[100%] w-[90%] xs:min-h-auto flex  ">
               {/* <Corousell >
         {slides.map((slide) => (
             <img
@@ -338,7 +344,7 @@ export default function Mainpage() {
         </div>
 
         {/* 2nd page */}
-        <div id="section2" className="flex  w-full h-auto lg:h-[122vh] ">
+        <div id="section2" className="flex  w-full h-[170vh] lg:h-[122vh] ">
           <div className="relative w-[20%] h-auto bg-white ">
             <div className="absolute top-[30rem] lg:top-[49rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[29rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[2rem] ">
@@ -356,25 +362,20 @@ export default function Mainpage() {
             <div className="relative h-12 lg:mt-3 lg:mb-11 lg:h-max text-[1.2rem] top-0 lg:text-[3rem] font-dm-serif-display text-darkkhaki text-left">
               Moment spent with your loved ones
             </div>
-            <div className="flex flex-wrap lg:gap-10 mb-7  mt-3 h-[550px] lg:h-auto">
+            <div className="flex flex-wrap lg:gap-10 mb-7  mt-3 h-auto max-h-[50rem] lg:h-auto">
               <img
                 className=" h-[25rem] w-full lg:w-[29rem] rounded-[2rem]  "
                 src="https://cdn.discordapp.com/attachments/1096324843877703713/1170748291554746519/cascade_pic1.jpg?ex=655a2b50&is=6547b650&hm=5b37b6bc6af8adf9d43f8f46144529fc27a1cd2c53bce4322357a0afe8f36e9b&"
                 alt=""
               />
               <p className="my-2 h-fit text-[1.2rem]  lg:max-w-[500px]">
-                Life at Cascade Avenue is far away from mediocrity, closer to
-                stardom, <br /> <br />
-                On one hand its magnificent facade is a grand celebration Of the
-                luxurious conveniences loaded inside. While on the other, the
-                attent.on to the tiniest of details makes you feel like royalty.
-                <br /> <br />
-                Everything about these spaces is a result of thoughtful design.
-                From its creme-de-la-creme location that reduces the travel
-                stress. to its brilliantly designed interiors that nestles one
-                way from the neon of the busy urban life. <br /> <br />
-                Cascade Avenue essentially flaunts 2 towers with ultramodern
-                living spaces.
+              Life at Cascade Avenue is far away from mediocrity, closer to stardom, <br/> <br/>
+On one hand its magnificent facade is a grand celebration Of the luxurious conveniences
+loaded inside. While on the other, the attent.on to the tiniest of details makes you feel like royalty.<br/> <br/>
+Everything about these spaces is a result of thoughtful design. From its creme-de-la-creme
+location that reduces the travel stress. to its brilliantly designed interiors that nestles one
+way from the neon of the busy urban life. <br/> <br/>
+Cascade Avenue essentially flaunts 2 towers with ultramodern living spaces.
               </p>
             </div>
 
@@ -662,6 +663,7 @@ export default function Mainpage() {
             >
               <div className="w-[20rem] h-[20rem] mb-14 lg:w-[33rem] lg:h-[24rem]">
                 <img
+                  
                   onClick={() => {
                     console.log(page3ImgObj[page3Selector]);
                   }}
@@ -712,13 +714,7 @@ export default function Mainpage() {
           <div className="w-[80%] h-auto ">
             <div className="grid grid-cols-2 gap-x-4  lg:grid-cols-3 lg:gap-10">
               {locationImg.map((img, index) => {
-                return (
-                  <HoverImage
-                    key={index}
-                    img={img}
-                    text={locationText[index]}
-                  />
-                );
+                return <HoverImage key={index} img={img} text={locationText[index]} />;
               })}
             </div>
           </div>
@@ -767,11 +763,7 @@ export default function Mainpage() {
                 </div>
               ) : (
                 <div className="relative w-[50%] mx-auto  h-fit font-dm-serif-display text-yellow-700 text-center">
-                  <img
-                    className="w-full h-[80vh]"
-                    src="https://cdn.discordapp.com/attachments/1096324843877703713/1172826016247455804/WhatsApp_Image_2023-11-02_at_22.18.53_146fd8f8.jpg?ex=6561ba58&is=654f4558&hm=674a997c1870328e84e78706899cc78f406e9999a7619249401a93a787ec72f0&"
-                    alt=""
-                  />
+                  <img className="w-full h-[80vh]" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172826016247455804/WhatsApp_Image_2023-11-02_at_22.18.53_146fd8f8.jpg?ex=6561ba58&is=654f4558&hm=674a997c1870328e84e78706899cc78f406e9999a7619249401a93a787ec72f0&" alt="" />
                 </div>
               )}
             </div>
@@ -863,24 +855,22 @@ export default function Mainpage() {
           className="h-auto w-full mx-auto bg-cover"
           style={{
             backgroundImage: `URL('https://cdn.discordapp.com/attachments/1096324843877703713/1172809545421172737/image.png?ex=6561ab01&is=654f3601&hm=908f8ef6fb008954d7f172ed8e412068259ad2b8f4b4ec6696a6513fcd400d17&')`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            maxWidth: `100%`,
+            backgroundSize:"cover",
+            backgroundRepeat:"no-repeat",
+            backgroundPosition:"center",
+            maxWidth:`100%`,
             // backgroundAttachment:"fixed"
+
           }}
         >
           <div className="h-auto">
             <div className="h-[100vh] w-[63%] flex items-center justify-center mx-auto  gap-10 ">
-              <div
-                onClick={() => {
+              <div onClick={() => {
                   setIsPdfQuery(true);
                   setShowModal(true);
 
                   // download function
-                }}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
-              >
+                }} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
                 <div className="absolute top-[1.19rem] w-fit left-[2.25rem]">
                   Download Brochure
                 </div>
@@ -891,14 +881,12 @@ export default function Mainpage() {
                 />
               </div>
 
-              <div
-                onClick={() => {
+              <div onClick={() => {
+                  
                   setShowModal(true);
 
                   // download function
-                }}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
-              >
+                }} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
                 <div className="absolute top-[1.19rem] left-[5.25rem] ">
                   Enquire Now
                 </div>
@@ -909,10 +897,7 @@ export default function Mainpage() {
                 />
               </div>
 
-              <div
-                onClick={handleWhatsAppClick}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
-              >
+              <div onClick={handleWhatsAppClick} className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer">
                 <div className="absolute top-[1.19rem] left-[5.25rem]">
                   Contact Us
                 </div>
@@ -928,11 +913,7 @@ export default function Mainpage() {
 
         {/* footer */}
         <div className="h-[40vh] w-fit mx-auto mt-7 ">
-          <img
-            className="h-auto w-[1400px] mx-auto  object-contain"
-            src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&"
-            alt=""
-          />
+         <img className="h-auto w-[1400px] mx-auto  object-contain" src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&" alt="" />
         </div>
       </div>
 
