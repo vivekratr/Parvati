@@ -573,7 +573,7 @@ export default function Mainpage() {
           id="section4"
           className="flex mt-9 bg-white h-auto md:h-auto lg:h-[90vh]"
         >
-          <div className="sticky top-[21rem] lg:top-0 w-[30%] bg-white h-[25vh] lg:h-[60vh]  ">
+          <div className="sticky top-[21rem] xs:mb-[3rem] lg:top-0 w-[30%] bg-white h-[25vh] lg:h-[60vh]  ">
             <div className="absolute top-[15rem] lg:top-[24rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[20rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4.2rem] ">
                 Gallery
@@ -582,7 +582,7 @@ export default function Mainpage() {
           </div>
 
           <div className=" flex justify-center w-[70%] h-max mb-9  lg:w-[80%]">
-            <div className="mx-auto w-max grid gap-7 grid-cols-1 lg:grid-cols-2 h-auto">
+            <div className="mx-auto w-max grid gap-7 grid-cols-1 mb-[1rem] lg:grid-cols-2 h-auto">
               <div className="h-max w-[100%] mx-auto">
                 <img
                   className="h-[19rem] max-w-[85%] lg:h-[30rem] lg:max-w-[828px] cover  rounded-lg"
@@ -660,7 +660,7 @@ export default function Mainpage() {
               : "lg:grid-cols-2 ml-4 lg:ml-12 "
           }`}
             >
-              <div className={` mb-14  ${page3Selector===2? 'w-[21rem] h-[20rem] lg:w-[85rem] lg:h-auto':"w-[20rem] h-[20rem] lg:w-[37rem] lg:h-auto"}`}>
+              <div className={` mb-14  ${page3Selector===2? 'w-[18rem] h-[20rem] lg:w-[85rem] lg:h-auto':"w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"}`}>
                 {/* <img
                   onClick={() => {
                     console.log(page3ImgObj[page3Selector]);
@@ -673,7 +673,7 @@ export default function Mainpage() {
               </div>
 
               {page3ImgObj[page3Selector][1] && (
-                <div className=" w-[20rem]  h-[20rem] lg:w-[33rem] lg:h-[24rem]">
+                <div className=" w-[18rem]  h-[20rem] lg:w-[33rem] lg:h-[24rem]">
                   {/* <img
                     src={page3ImgObj[page3Selector][1]}
                     alt="Your Image"
