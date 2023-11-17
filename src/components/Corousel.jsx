@@ -8,7 +8,7 @@ export default function CarouselCustomNavigation() {
 'https://cdn.discordapp.com/attachments/1096324843877703713/1172818560079364156/5.png?ex=6561b366&is=654f3e66&hm=be3bf3be31fbe806a36b873cd554149be1ba0f9c0bb86798c6da6ef67195fda5&',
 'https://cdn.discordapp.com/attachments/1096324843877703713/1172818560960176158/4.png?ex=6561b366&is=654f3e66&hm=a9828c3bb189ec15694fd2f3c1ba195d28016e345561cb701f0998381f895b89&',
 
-]
+] 
   return (
     <Carousel
       className="rounded-3xl  overflow-hidden   w-[100%] h-[30rem]  lg:w-[100%] lg:h-[100%] relative z-20"
