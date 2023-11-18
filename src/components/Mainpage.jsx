@@ -942,18 +942,18 @@ export default function Mainpage() {
         </div>
 
         {/* footer */}
-        <div className="h-auto w-full mx-auto mt-12 ">
-          <div className="flex lg:flex-col h-auto">
+        <div className="h-auto w-full mx-auto mt-12  ">
+          <div className="flex lg:flex-col  h-auto">
             <div className="relative text-[1.25rem] h-fit font-dm-serif-display text-black text-center">{`M/s. PARWATI CONSTRUCTIONS BUILDERS & DEVELOPERS`}</div>
             <div className="relative text-[1rem] h-fit font-inter text-black text-center">
               Maha Rera No. P51700052696
             </div>
-            <div className="flex mt-3 h-fit">
+            <div className="flex  mt-3 h-fit">
               <div className="flex flex-col justify-start h-fit">
-                <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
+                <div className="relative py-2 text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
                   Address
                 </div>
-                <div className="relative text-[1.25rem] h-fit w-fit text-black text-left font-inter">
+                <div className="relative py-1 text-[1.25rem] h-fit w-fit text-black text-left font-inter">
                   <span className="font-semibold">Site Address</span>
                   <span>
                     {" "}
@@ -971,11 +971,11 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-end h-fit gap-7">
-                <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
+              <div className="flex flex-col items-end h-fit ">
+                <div className="relative text-[1.5rem] py-2 h-fit w-fit font-dm-serif-display text-black text-left">
                   Contact Information
                 </div>
-                <div className="relative text-[1.25rem]  h-fit w-fit font-inter text-black text-left">
+                <div className="relative text-[1.25rem] py-1 h-fit w-fit font-inter text-black text-left">
                   8454954977 / 8454953977
                 </div>
                 <a
@@ -1002,7 +1002,7 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="relative w-fit h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
+              <div className="relative w-max ml-10 h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
                 <div className="relative inline-block h-fit  w-[14.81rem]">
                   <p className="m-0 h-fit ">RCC Consultants :</p>
                   <p className="m-0 h-fit">Anand Sawant</p>
