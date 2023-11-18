@@ -11,7 +11,7 @@ export default function Header(props) {
     <div className="flex  mb-8  flex-row max-h-24 max-w-full ">
       <div className="my-5 mx-6 mr-13 bg-none relative max-w-[16rem]  max-h-24 px-3  flex flex-row items-center justify-start gap-[0.5rem]">
         <img
-          src={Logo}
+          src={`https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&`}
           alt="Logo"
           className="relative w-[4.38rem] h-[4.63rem] object-cover"
         />

@@ -115,7 +115,7 @@ export default function DialogWithImage(props) {
       >
         <img
           alt="nature"
-          className="w-full object-contain "
+          className="w-full object-fill "
         //   className="h-[1580px] w-[1600px] object-cover object-center"
           src={props.url}
           style={ImgStyle}

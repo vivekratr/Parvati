@@ -27,15 +27,15 @@ export default function Mainpage() {
   };
 
   const [selectedImage, setSelectedImage] = useState(
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172833940936065084/framing-landscape-while-traveling.jpg?ex=6561c1b9&is=654f4cb9&hm=a73075c37be4b9d75c1e12a00c9a55bc0c0ab4b6ddaa6602f72dcdd62c29155a&"
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428903368663050/3.png?ex=656b3278&is=6558bd78&hm=d17626648fcf95e7c89fc6fe72928c9f94a7bf6871ee6b7e7d23545831978468&"
   );
 
   const smallImages = [
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172833940936065084/framing-landscape-while-traveling.jpg?ex=6561c1b9&is=654f4cb9&hm=a73075c37be4b9d75c1e12a00c9a55bc0c0ab4b6ddaa6602f72dcdd62c29155a&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172841425344409620/2150699513.jpg?ex=6561c8b2&is=654f53b2&hm=2e2433098d0a8bdd59b4e2f5cdc6e86c2e17dc2246709b941f615ad5f84e24c5&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172837458858217532/outdoor-patio-with-table-chair.jpg?ex=6561c500&is=654f5000&hm=eecfd3f3cbcc80672571302b5eda016268677a71de50949da54792af7ba9d0b7&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172837912795168798/park-with-wooden-pathway-benches.jpg?ex=6561c56c&is=654f506c&hm=239094644480434d62090591bec0084ef9ea3350174db1fa7bf334bff896d09e&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172839046624587817/public-park-with-gazebo-paved-walkways-surrounded-by-greenery_124507-141228.jpg?ex=6561c67b&is=654f517b&hm=3e2dfe5669f987d59463a84154053d4c3a967d4b58e3089c67ffce72624ff927&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428912889729135/7.png?ex=656b327b&is=6558bd7b&hm=97a38ecb4390024c97563be6bb485fc330d3b6d167d98b38861351dcaa4d6916&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428907483275264/5.png?ex=656b3279&is=6558bd79&hm=b088d5e01a145304e6d35a4f373a9ef62bc724c78b6c3b7851af6f54a162fc61&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428914957525052/8.png?ex=656b327b&is=6558bd7b&hm=59ca800428cae9f93b40e20c52d97be78d7994dca33edaf37801afac225d2250&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428916622667806/9.png?ex=656b327c&is=6558bd7c&hm=cc44b0890225f11c41f1cfd23c3ba5fbe508e032666d06c24211a5ab8f8431e1&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175428903368663050/3.png?ex=656b3278&is=6558bd78&hm=d17626648fcf95e7c89fc6fe72928c9f94a7bf6871ee6b7e7d23545831978468&",
   ];
 
   const backgroundImageUrl =
@@ -134,7 +134,7 @@ export default function Mainpage() {
       "https://media.discordapp.net/attachments/1174781534163697777/1175414576758673570/colsal_broucher_2.png?ex=656b2521&is=6558b021&hm=7843bf3ed313e7f6f324cf7eb644865d698f053d78305935bc23d26495938b33&=&width=1022&height=662",
     ],
     2: [
-      "https://cdn.discordapp.com/attachments/1096324843877703713/1172222269922222111/image.png?ex=655f880f&is=654d130f&hm=fc8a3cef92226f735c75c3d5cdb419690443785143af4cdf6e4e7d2bfdf6a4fd&",
+      "https://media.discordapp.net/attachments/1174781534163697777/1175414574556659752/colsal_broucher_6.png?ex=656b2520&is=6558b020&hm=641452c1bd476d34145aa807a831173390bedc998c210c0f0f0587dac3023d50&=&width=1022&height=662",
     ],
   };
 
@@ -258,7 +258,7 @@ export default function Mainpage() {
                 className="  relative  p-7 bg-white w-[70%] lg:w-[65%] lg:ml-14 h-[31.19rem]  text-left text-[1.75rem] text-yellow-700 font-dm-serif-displays"
               >
                 <div className="h-fit text-[1.7rem] font-dm-serif-display text-yellow-400 text-left">
-                  CASCADE AVENUE
+                  Collosol
                 </div>
                 <div className="h-fit text-[0.8rem] font-dm-serif-display text-yellow-600 text-left">
                   KASARVADAVALI, GB ROAD, THANE[W] - 400615
@@ -341,7 +341,7 @@ export default function Mainpage() {
           <div className="relative w-[20%] h-auto bg-white ">
             <div className="absolute top-[30rem] lg:top-[49rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[29rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[2rem] ">
-                CASCADE AVENUE
+                Collosol
               </p>
               <p className=" w-[30rem] h-fit lg:text-[1.4rem] text-[1rem]">
                 Kasarvadavali, GB Road, Thane - 400615
@@ -357,13 +357,13 @@ export default function Mainpage() {
             </div>
             <div className="flex flex-wrap lg:gap-10 mb-7  mt-3 h-auto max-h-[50rem] lg:h-auto">
               <img
-                className=" h-[25rem] w-full lg:w-[29rem] rounded-[2rem]  "
-                src="https://cdn.discordapp.com/attachments/1096324843877703713/1170748291554746519/cascade_pic1.jpg?ex=655a2b50&is=6547b650&hm=5b37b6bc6af8adf9d43f8f46144529fc27a1cd2c53bce4322357a0afe8f36e9b&"
+                className=" h-[30rem] w-full lg:w-[29rem] rounded-[2rem]  "
+                src="https://cdn.discordapp.com/attachments/1174781534163697777/1175428912889729135/7.png?ex=656b327b&is=6558bd7b&hm=97a38ecb4390024c97563be6bb485fc330d3b6d167d98b38861351dcaa4d6916&"
                 alt=""
               />
               <p className="my-2 h-fit text-[1.2rem]  lg:max-w-[500px]">
-                Life at Cascade Avenue is far away from mediocrity, closer to
-                stardom, <br /> <br />
+                Life at Collosol is far away from mediocrity, closer to stardom,{" "}
+                <br /> <br />
                 On one hand its magnificent facade is a grand celebration Of the
                 luxurious conveniences loaded inside. While on the other, the
                 attent.on to the tiniest of details makes you feel like royalty.
@@ -372,8 +372,8 @@ export default function Mainpage() {
                 From its creme-de-la-creme location that reduces the travel
                 stress. to its brilliantly designed interiors that nestles one
                 way from the neon of the busy urban life. <br /> <br />
-                Cascade Avenue essentially flaunts 2 towers with ultramodern
-                living spaces.
+                Collosol essentially flaunts 2 towers with ultramodern living
+                spaces.
               </p>
             </div>
 
@@ -652,7 +652,7 @@ export default function Mainpage() {
             </div>
 
             <div
-              className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-36  
+              className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-30  
           ${
             page3Selector === 2 || page3Selector == 1
               ? "lg:ml-[1rem] ml-3 w-full  lg:grid-cols-1"
@@ -662,7 +662,7 @@ export default function Mainpage() {
               <div
                 className={` lg:mb-0 mb-14  ${
                   page3Selector === 2 || page3Selector == 1
-                    ? "w-[18rem] h-[20rem] lg:w-[84rem] lg:h-auto"
+                    ? "w-[18rem] h-[20rem] lg:w-[70rem] lg:h-auto pl-[4rem]"
                     : "w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"
                 }`}
               >
@@ -882,7 +882,10 @@ export default function Mainpage() {
           }}
         >
           <div className="h-auto">
-            <div className="h-[100vh] w-[63%] flex flex-col lg:flex-row items-center justify-center mx-auto  gap-10 ">
+            <div className="relative h-fit text-[1.7rem] lg:text-[3rem] font-dm-serif-display lg:h-[30vh] mx-auto text-white text-center pt-12">
+              CELEBRATE A COMPLETE LIFE
+            </div>
+            <div className="h-[70vh] w-[63%] flex flex-col lg:flex-row items-center justify-center mx-auto  gap-10 ">
               <div
                 onClick={() => {
                   setIsPdfQuery(true);
@@ -938,12 +941,88 @@ export default function Mainpage() {
         </div>
 
         {/* footer */}
-        <div className="h-[40vh] w-fit mx-auto mt-7 ">
-          <img
-            className="h-auto w-full lg:w-[1400px] mx-auto  object-contain"
-            src="https://cdn.discordapp.com/attachments/1096324843877703713/1172828633002410024/Untitled_design_8.png?ex=6561bcc8&is=654f47c8&hm=82a712b5e813de3f5374ba0b6f13314c8719265dc7d45bde91c9cf1972a024c1&"
-            alt=""
-          />
+        <div className="h-auto w-full mx-auto mt-12 ">
+          <div className="flex lg:flex-col h-auto">
+            <div className="relative text-[1.25rem] h-fit font-dm-serif-display text-black text-center">{`M/s. PARWATI CONSTRUCTIONS BUILDERS & DEVELOPERS`}</div>
+            <div className="relative text-[1rem] h-fit font-inter text-black text-center">
+              Maha Rera No. P51700052696
+            </div>
+            <div className="flex mt-3">
+              <div className="flex flex-col justify-start">
+                <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
+                  Address
+                </div>
+                <div className="relative text-[1.25rem] h-fit w-fit text-black text-left font-inter">
+                  <span className="font-semibold">Site Address</span>
+                  <span>
+                    {" "}
+                    : Surve No. 20/1/2 Near Anmol Garden, Nandivali, Kalyan (E),
+                    Dist.Thane 421 306
+                  </span>
+                </div>
+                <div className="relative h-fit w-fit  text-[1.25rem] text-black text-left font-inter">
+                  <span className="font-semibold">Office</span>
+                  <span>
+                    {" "}
+                    : 01/02, Tulsi Park, Near Anmol Garden, Nandivali,Kalyan
+                    (E), Dist. Thane 421 301
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex flex-col items-end">
+                <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
+                  Contact Information
+                </div>
+                <div className="relative text-[1.25rem]  h-fit w-fit font-inter text-black text-left">
+                  8454954977 / 8454953977
+                </div>
+                <a
+                  className="relative text-[1.25rem]  h-fit w-fit font-inter text-black text-left [text-decoration:none]"
+                  href="mailto:parwaticonstruction.colossal@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  parwaticonstruction.colossal@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div className="flex">
+              <div className="flex">
+                <img
+                  className="relative w-full h-[12.88rem] object-cover"
+                  alt=""
+                  src="https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&"
+                />
+                <div className="relative text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
+                  <p className="m-0">{`Builders & Developers :`}</p>
+                  <p className="m-0">Parwati Constructions</p>
+                </div>
+              </div>
+
+              <div className="relative w-full flex flex-col items-center justify-start text-center text-[1.25rem] text-black font-inter">
+                <div className="relative inline-block w-[14.81rem]">
+                  <p className="m-0">RCC Consultants :</p>
+                  <p className="m-0">Anand Sawant</p>
+                </div>
+                <div className="relative inline-block w-[21.06rem]">
+                  (Pentacon Structural Consultants)
+                </div>
+              </div>
+              <div className="relative text-[1.25rem] font-inter text-black text-center inline-block w-[9.81rem]">
+                <p className="m-0">Architect :</p>
+                <p className="m-0">Anil Nirgude</p>
+                <p className="m-0">Vitan Consultant</p>
+              </div>
+              <img
+                className="relative w-full h-[8.56rem] object-cover"
+                alt=""
+                src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
+              />
+              <div className="relative text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+            </div>
+          </div>
         </div>
       </div>
 
