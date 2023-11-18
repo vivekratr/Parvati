@@ -874,7 +874,7 @@ export default function Mainpage() {
         <div
           className="h-auto w-full mx-auto bg-cover"
           style={{
-            backgroundImage: `URL('https://cdn.discordapp.com/attachments/1096324843877703713/1172809545421172737/image.png?ex=6561ab01&is=654f3601&hm=908f8ef6fb008954d7f172ed8e412068259ad2b8f4b4ec6696a6513fcd400d17&')`,
+            backgroundImage: `URL('https://cdn.discordapp.com/attachments/1096324843877703713/1175421149258186762/image.png?ex=656b2b40&is=6558b640&hm=f6b1014716ca2b1132faaffafda5922f54e8d978c2a10088a3c63adc9b7d7463&')`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
