@@ -258,7 +258,7 @@ export default function Mainpage() {
                 className="  relative  p-7 bg-white w-[70%] lg:w-[65%] lg:ml-14 h-[31.19rem]  text-left text-[1.75rem] text-yellow-700 font-dm-serif-displays"
               >
                 <div className="h-fit text-[2rem] font-dm-serif-display text-yellow-400 text-left">
-                  Collosol
+                  Colossal
                 </div>
                 <div className="h-fit text-[0.9rem] font-dm-serif-display text-yellow-600 text-left">
                   Site Address : Surve No. 20/1/2 Near Anmol Garden, Nandivali,
@@ -342,7 +342,7 @@ export default function Mainpage() {
           <div className="relative w-[20%] h-auto bg-white ">
             <div className="absolute top-[30rem] lg:top-[49rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[29rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[2rem] ">
-                Collosol
+                Colossal
               </p>
               <p className=" w-[30rem] h-fit lg:text-[1.4rem] text-[1rem]">
                 Kasarvadavali, GB Road, Thane - 400615
@@ -363,7 +363,7 @@ export default function Mainpage() {
                 alt=""
               />
               <p className="my-2 h-fit text-[1.2rem]  lg:max-w-[500px]">
-                Life at Collosol is far away from mediocrity, closer to stardom,{" "}
+                Life at Colossal is far away from mediocrity, closer to stardom,{" "}
                 <br /> <br />
                 On one hand its magnificent facade is a grand celebration Of the
                 luxurious conveniences loaded inside. While on the other, the
@@ -373,7 +373,7 @@ export default function Mainpage() {
                 From its creme-de-la-creme location that reduces the travel
                 stress. to its brilliantly designed interiors that nestles one
                 way from the neon of the busy urban life. <br /> <br />
-                Collosol essentially flaunts 2 towers with ultramodern living
+                Colossal essentially flaunts 2 towers with ultramodern living
                 spaces.
               </p>
             </div>
@@ -971,7 +971,7 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-end h-fit">
+              <div className="flex flex-col items-end h-fit gap-7">
                 <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
                   Contact Information
                 </div>
@@ -989,8 +989,8 @@ export default function Mainpage() {
               </div>
             </div>
 
-            <div className="flex">
-              <div className="flex h-fit w-fit">
+            <div className="flex gap-12 mt-4 h-fit ">
+              <div className="flex h-fit w-fit items-center">
                 <img
                   className="relative w-auto h-[11rem] object-cover"
                   alt=""
@@ -1002,26 +1002,29 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="relative w-fit h-fit flex flex-col items-center justify-start text-center text-[1.25rem] text-black font-inter">
-                <div className="relative inline-block h-fit w-[14.81rem]">
-                  <p className="m-0 h-fit">RCC Consultants :</p>
+              <div className="relative w-fit h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
+                <div className="relative inline-block h-fit  w-[14.81rem]">
+                  <p className="m-0 h-fit ">RCC Consultants :</p>
                   <p className="m-0 h-fit">Anand Sawant</p>
                 </div>
                 <div className="relative inline-block h-fit w-[21.06rem]">
                   (Pentacon Structural Consultants)
                 </div>
               </div>
-              <div className="relative text-[1.25rem] h-fit font-inter text-black text-center inline-block w-[9.81rem]">
+
+              <div className="relative flex flex-col min-h-[11rem] justify-center items-center text-[1.25rem] h-fit font-inter text-black text-center  w-[9.81rem]">
                 <p className="m-0 h-fit ">Architect :</p>
                 <p className="m-0 h-fit">Anil Nirgude</p>
                 <p className="m-0 h-fit">Vitan Consultant</p>
               </div>
-              <img
-                className="relative w-[8rem] p-4 h-max object-contain"
-                alt=""
-                src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
-              />
-              <div className="relative h-fit w-fit text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+              <div className="flex w-full justify-end h-fit">
+                <img
+                  className="relative w-[8rem] p-4 h-max object-contain"
+                  alt=""
+                  src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
+                />
+                <div className="relative h-fit w-fit text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+              </div>
             </div>
           </div>
         </div>
