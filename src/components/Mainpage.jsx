@@ -131,7 +131,7 @@ export default function Mainpage() {
       "https://cdn.discordapp.com/attachments/1174781534163697777/1175414573193511024/colsal_broucher_9.png?ex=656b2520&is=6558b020&hm=03b7c576c665d156df58df64c7e6f721efc21f6b4d304c40ae22f3edeb9fe52b&",
     ],
     1: [
-      "https://cdn.discordapp.com/attachments/1096324843877703713/1172222632796631070/image.png?ex=655f8866&is=654d1366&hm=94ebae234c1e57f30691e92f98bff3f034aafe3c428e0e20697558a4c773ff8b&",
+      "https://media.discordapp.net/attachments/1174781534163697777/1175414576758673570/colsal_broucher_2.png?ex=656b2521&is=6558b021&hm=7843bf3ed313e7f6f324cf7eb644865d698f053d78305935bc23d26495938b33&=&width=1022&height=662",
       "https://cdn.discordapp.com/attachments/1096324843877703713/1172222633404805120/image.png?ex=655f8866&is=654d1366&hm=61a93a70c93ce29d8b804dc3b6429e52e0fa7c05f1692a7b834036372c7dc6f9&",
     ],
     2: [
