@@ -883,7 +883,7 @@ export default function Mainpage() {
           }}
         >
           <div className="h-auto">
-            <div className="h-[100vh] w-[63%] flex items-center justify-center mx-auto  gap-10 ">
+            <div className="h-[100vh] w-[63%] flex flex-col lg:flex-row items-center justify-center mx-auto  gap-10 ">
               <div
                 onClick={() => {
                   setIsPdfQuery(true);
@@ -891,7 +891,7 @@ export default function Mainpage() {
 
                   // download function
                 }}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+                className="relative rounded-[176px] bg-white w-[120%] lg:w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
               >
                 <div className="absolute top-[1.19rem] w-fit left-[2.25rem]">
                   Download Brochure
@@ -909,7 +909,7 @@ export default function Mainpage() {
 
                   // download function
                 }}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+                className="relative rounded-[176px] bg-white w-[120%] lg:w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
               >
                 <div className="absolute top-[1.19rem] left-[5.25rem] ">
                   Enquire Now
@@ -923,7 +923,7 @@ export default function Mainpage() {
 
               <div
                 onClick={handleWhatsAppClick}
-                className="relative rounded-[176px] bg-white w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
+                className="relative rounded-[176px] bg-white w-[120%] lg:w-1/3 h-[4.69rem] overflow-hidden text-justify text-[1.35rem] text-yellow-700 font-dm-serif-display transition-transform transform hover:scale-110 cursor-pointer"
               >
                 <div className="absolute top-[1.19rem] left-[5.25rem]">
                   Contact Us
