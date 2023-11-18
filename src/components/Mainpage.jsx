@@ -943,25 +943,25 @@ export default function Mainpage() {
 
         {/* footer */}
         <div className="h-auto w-full mx-auto mt-12  ">
-          <div className="flex lg:flex-col  h-auto">
-            <div className="relative text-[1.25rem] h-fit font-dm-serif-display text-black text-center">{`M/s. PARWATI CONSTRUCTIONS BUILDERS & DEVELOPERS`}</div>
-            <div className="relative text-[1rem] h-fit font-inter text-black text-center">
+          <div className="flex flex-col  h-auto">
+            <div className="relative text-[0.8rem] lg:text-[1.25rem] h-fit font-dm-serif-display text-black text-center">{`M/s. PARWATI CONSTRUCTIONS BUILDERS & DEVELOPERS`}</div>
+            <div className="relative text-[0.6rem] lg:text-[1rem] h-fit font-inter text-black text-center">
               Maha Rera No. P51700052696
             </div>
             <div className="flex  mt-3 h-fit">
               <div className="flex flex-col justify-start h-fit">
-                <div className="relative py-2 text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
+                <div className="relative py-2 text-[1.1rem] lg:text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
                   Address
                 </div>
-                <div className="relative py-1 text-[1.25rem] h-fit w-fit text-black text-left font-inter">
+                <div className="relative py-1 text-[0.85rem] lg:text-[1.25rem] h-fit w-fit text-black text-left font-inter">
                   <span className="font-semibold">Site Address</span>
                   <span>
-                    {" "}
+                    
                     : Surve No. 20/1/2 Near Anmol Garden, Nandivali, Kalyan (E),
                     Dist.Thane 421 306
                   </span>
                 </div>
-                <div className="relative h-fit w-fit  text-[1.25rem] text-black text-left font-inter">
+                <div className="relative h-fit w-fit text-[0.8rem] lg:text-[1.25rem] text-black text-left font-inter">
                   <span className="font-semibold">Office</span>
                   <span>
                     {" "}
@@ -972,14 +972,14 @@ export default function Mainpage() {
               </div>
 
               <div className="flex flex-col items-end h-fit ">
-                <div className="relative text-[1.5rem] py-2 h-fit w-fit font-dm-serif-display text-black text-left">
+                <div className="relative text-[1.1rem] lg:text-[1.5rem] py-2 h-fit w-fit font-dm-serif-display text-black text-left">
                   Contact Information
                 </div>
-                <div className="relative text-[1.25rem] py-1 h-fit w-fit font-inter text-black text-left">
+                <div className="relative text-[0.85rem] lg:text-[1.25rem] py-1 h-fit w-fit font-inter text-black text-left">
                   8454954977 / 8454953977
                 </div>
                 <a
-                  className="relative text-[1.25rem]  h-fit w-fit font-inter text-black text-left [text-decoration:none]"
+                  className="relative text-[0.8rem] lg:text-[1.25rem]  h-fit w-fit font-inter text-black text-left [text-decoration:none]"
                   href="mailto:parwaticonstruction.colossal@gmail.com"
                   target="_blank"
                   rel="noreferrer"
@@ -992,17 +992,17 @@ export default function Mainpage() {
             <div className="flex gap-12 mt-4 h-fit ">
               <div className="flex h-fit w-fit items-center">
                 <img
-                  className="relative w-auto h-[11rem] object-cover"
+                  className="relative w-auto h-[4rem] lg:h-[11rem] object-cover"
                   alt=""
                   src="https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&"
                 />
-                <div className="relative h-fit text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
+                <div className="relative h-fit text-[0.85rem] lg:text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
                   <p className="m-0 h-fit">{`Builders & Developers :`}</p>
                   <p className="m-0 h-fit">Parwati Constructions</p>
                 </div>
               </div>
 
-              <div className="relative w-max ml-10 h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
+              <div className="relative left-[8rem] w-max ml-10 h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
                 <div className="relative inline-block h-fit  w-[14.81rem]">
                   <p className="m-0 h-fit ">RCC Consultants :</p>
                   <p className="m-0 h-fit">Anand Sawant</p>
@@ -1012,18 +1012,18 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="relative flex flex-col min-h-[11rem] justify-center items-center text-[1.25rem] h-fit font-inter text-black text-center  w-[9.81rem]">
-                <p className="m-0 h-fit ">Architect :</p>
-                <p className="m-0 h-fit">Anil Nirgude</p>
-                <p className="m-0 h-fit">Vitan Consultant</p>
+              <div className="flex w-full justify-end items-center h-fit">
+              <div className="relative left-[5rem] flex flex-col min-h-[11rem] justify-center items-center text-[1.25rem] h-fit font-inter text-black text-center  w-[9.81rem]">
+                <p className="m-0 h-fit w-max ">Architect :</p>
+                <p className="m-0 h-fit w-max">Anil Nirgude</p>
+                <p className="m-0 h-fit w-max">Vitan Consultant</p>
               </div>
-              <div className="flex w-full justify-end h-fit">
                 <img
-                  className="relative w-[8rem] p-4 h-max object-contain"
+                  className="relative left-[5rem] w-fit p-4 h-[8rem] object-contain"
                   alt=""
                   src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
                 />
-                <div className="relative h-fit w-fit text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+                <div className="relative h-fit w-fit text-[1rem] lg:left-[5rem] bottom-[3rem] font-inter text-black text-center [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
               </div>
             </div>
           </div>
