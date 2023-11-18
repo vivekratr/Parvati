@@ -947,8 +947,8 @@ export default function Mainpage() {
             <div className="relative text-[1rem] h-fit font-inter text-black text-center">
               Maha Rera No. P51700052696
             </div>
-            <div className="flex mt-3">
-              <div className="flex flex-col justify-start">
+            <div className="flex mt-3 h-fit">
+              <div className="flex flex-col justify-start h-fit">
                 <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
                   Address
                 </div>
@@ -970,7 +970,7 @@ export default function Mainpage() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-end">
+              <div className="flex flex-col items-end h-fit">
                 <div className="relative text-[1.5rem] h-fit w-fit font-dm-serif-display text-black text-left">
                   Contact Information
                 </div>
@@ -989,7 +989,7 @@ export default function Mainpage() {
             </div>
 
             <div className="flex">
-              <div className="flex">
+              <div className="flex h-auto">
                 <img
                   className="relative w-full h-[12.88rem] object-cover"
                   alt=""
