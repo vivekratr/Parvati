@@ -943,7 +943,7 @@ export default function Mainpage() {
 
         {/* footer */}
         <div className="h-auto w-full mx-auto mt-12  ">
-          <div className="flex flex-col  h-auto">
+          <div className="flex flex-col flex-wrap  h-auto">
             <div className="relative text-[0.8rem] lg:text-[1.25rem] h-fit font-dm-serif-display text-black text-center">{`M/s. PARWATI CONSTRUCTIONS BUILDERS & DEVELOPERS`}</div>
             <div className="relative text-[0.6rem] lg:text-[1rem] h-fit font-inter text-black text-center">
               Maha Rera No. P51700052696
@@ -989,41 +989,41 @@ export default function Mainpage() {
               </div>
             </div>
 
-            <div className="flex gap-12 mt-4 h-fit ">
+            <div className="flex gap-2  lg:gap-12 mt-4 h-fit ">
               <div className="flex h-fit w-fit items-center">
                 <img
                   className="relative w-auto h-[4rem] lg:h-[11rem] object-cover"
                   alt=""
                   src="https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&"
                 />
-                <div className="relative h-fit text-[0.85rem] lg:text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
+                <div className="relative h-fit text-[0.65rem] lg:text-[1.25rem] font-inter text-black text-center inline-block lg:w-[14.81rem]">
                   <p className="m-0 h-fit">{`Builders & Developers :`}</p>
                   <p className="m-0 h-fit">Parwati Constructions</p>
                 </div>
               </div>
 
-              <div className="relative left-[8rem] w-max ml-10 h-fit flex flex-col min-h-[11rem] items-center justify-center text-center text-[1.25rem] text-black font-inter">
-                <div className="relative inline-block h-fit  w-[14.81rem]">
-                  <p className="m-0 h-fit ">RCC Consultants :</p>
+              <div className="relative lg:left-[8rem] w-fit lg:w-max lg:ml-10 h-fit flex flex-col lg:min-h-[11rem] lg:items-center lg:justify-center text-center text-[0.65rem] lg:text-[1.25rem] text-black font-inter">
+                <div className="relative inline-block h-fit w-fit  lg:w-[14.81rem]">
+                  <p className="m-0 h-fit ">RCC Consultants:</p>
                   <p className="m-0 h-fit">Anand Sawant</p>
                 </div>
-                <div className="relative inline-block h-fit w-[21.06rem]">
+                <div className="relative w-fit inline-block h-fit lg:w-[21.06rem]">
                   (Pentacon Structural Consultants)
                 </div>
               </div>
 
-              <div className="flex w-full justify-end items-center h-fit">
-              <div className="relative left-[5rem] flex flex-col min-h-[11rem] justify-center items-center text-[1.25rem] h-fit font-inter text-black text-center  w-[9.81rem]">
+              <div className="flex w-fit lg:w-full justify-center items-center h-fit">
+              <div className="relative lg:left-[12rem] flex flex-col min-h-[8rem] lg:min-h-[11rem] justify-top lg:justify-center items-center text-[0.6rem] lg:text-[1.25rem] h-fit font-inter text-black text-center w-fit  lg:w-[9.81rem]">
                 <p className="m-0 h-fit w-max ">Architect :</p>
                 <p className="m-0 h-fit w-max">Anil Nirgude</p>
                 <p className="m-0 h-fit w-max">Vitan Consultant</p>
               </div>
                 <img
-                  className="relative left-[5rem] w-fit p-4 h-[8rem] object-contain"
+                  className="relative lg:left-[12rem] bottom-9 lg:bottom-0 w-fit p-4 h-[4rem] lg:h-[8rem] object-contain"
                   alt=""
                   src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
                 />
-                <div className="relative h-fit w-fit text-[1rem] lg:left-[5rem] bottom-[3rem] font-inter text-black text-center [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+                <div className="relative h-fit w-fit text-[0.5rem] lg:text-[1rem] lg:left-[12rem] bottom-6 lg:bottom-[3rem] font-inter text-black text-center [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
               </div>
             </div>
           </div>
