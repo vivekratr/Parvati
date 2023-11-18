@@ -132,7 +132,7 @@ export default function Mainpage() {
     ],
     1: [
       "https://media.discordapp.net/attachments/1174781534163697777/1175414576758673570/colsal_broucher_2.png?ex=656b2521&is=6558b021&hm=7843bf3ed313e7f6f324cf7eb644865d698f053d78305935bc23d26495938b33&=&width=1022&height=662",
-      "https://cdn.discordapp.com/attachments/1096324843877703713/1172222633404805120/image.png?ex=655f8866&is=654d1366&hm=61a93a70c93ce29d8b804dc3b6429e52e0fa7c05f1692a7b834036372c7dc6f9&",
+      
     ],
     2: [
       "https://cdn.discordapp.com/attachments/1096324843877703713/1172222269922222111/image.png?ex=655f880f&is=654d130f&hm=fc8a3cef92226f735c75c3d5cdb419690443785143af4cdf6e4e7d2bfdf6a4fd&",
@@ -655,14 +655,14 @@ export default function Mainpage() {
             <div
               className={`grid grid-cols-1 h-fit gap-y-[0rem] lg:gap-y-[1rem] mt-10 mb-9 lg:mt-36  
           ${
-            page3Selector === 2
+            page3Selector === 2 || page3Selector==1
               ? "lg:ml-[1rem] ml-3 w-full  lg:grid-cols-1"
               : "lg:grid-cols-2 ml-4 lg:ml-12 "
           }`}
             >
               <div
                 className={` lg:mb-0 mb-14  ${
-                  page3Selector === 2
+                  page3Selector === 2  || page3Selector==1
                     ? "w-[18rem] h-[20rem] lg:w-[84rem] lg:h-auto"
                     : "w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"
                 }`}
