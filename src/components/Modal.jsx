@@ -13,7 +13,7 @@ const Modal = ({ isVisible, onClose,setShowAlert ,isPdf,setPdf}) => {
 
   const formRef = useRef()
 
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
@@ -57,7 +57,7 @@ const handleDownload = () => {
     <div
       onClick={handleClose}
       id="wrapper"
-      className="fixed  z-[999] inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center"
+      className="fixed  z-[999] -inset-9 lg:inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center"
     >
       <div className="max-w-[60%] max-h-[70%] bg-white flex flex-col">
         <div className="bg-white h-[100%]  shadow-lg p-0">
@@ -67,7 +67,7 @@ const handleDownload = () => {
             </div>
             <img
               onClick={onClose}
-              className="absolute h-[30.94%] object fill cursor-pointer transition-transform hover:translate-y-[-1px] w-[3.24%] my-auto top-[23.53%] right-[2.91%] bottom-[23.53%] left-[91.85%] max-w-full overflow-hidden max-h-full"
+              className="absolute h-fit lg:h-[30.94%] object fill cursor-pointer transition-transform hover:translate-y-[-1px] w-[12%] lg:w-[3.24%] my-auto  top-[23.53%] right-[2.91%] bottom-[23.53%] left-[87%] lg:left-[91.85%] max-w-full overflow-hidden max-h-full"
               alt=""
               src="https://cdn.discordapp.com/attachments/1096324843877703713/1172647855064891412/image.png?ex=6561146b&is=654e9f6b&hm=1c4fe06c279649c348b25e08c06e811c425ebe93388a4ffee09fdfafdc22bacb&"
             />
