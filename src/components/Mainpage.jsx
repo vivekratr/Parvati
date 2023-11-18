@@ -769,7 +769,7 @@ export default function Mainpage() {
             </div>
             <div className="relative text-[1.75rem] left-5 mb-3 lg:w-[80%] w-[100%] h-auto font-dm-serif-display text-yellow-700 text-left mt-6">
               {isVirualTourSelected ? (
-                <div className="relative   lg:w-[80%] mx-auto  text-[0.8em] h-fit font-dm-serif-display text-yellow-700 text-center">
+                <div className="relative lg:left-[7rem]  lg:w-[100%] mx-auto  text-[0.8em] h-fit font-dm-serif-display text-yellow-700 text-center">
                   <video
                     className="w-full h-full"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172621248740724826/WhatsApp_Video_2023-11-02_at_22.18.52_07ded8c6.mp4?ex=6560fba3&is=654e86a3&hm=f16e737b096b653b347a7c8a06cee6224c2024e2a40d37b4b9acdd15f55f6a56&"
@@ -818,17 +818,17 @@ export default function Mainpage() {
           id="section9"
           className="flex mt-9 bg-lightgray h-auto md:h-auto lg:h-auto"
         >
-          <div className=" w-[80%] h-auto">
+          <div className=" w-[80%] h-min lg:h-auto">
             <div className="flex items-center justify-center h-[100%]  w-[100%]">
-              <div className="grid  lg:grid-cols-2 h-fit mt-[7rem] ml-[4rem]  w-fit gap-0 lg:gap-24">
-                <div className="">
+              <div className="grid  lg:grid-cols-2 h-fit my-[2rem] lg:mt-[7rem] ml-[4rem]  w-fit gap-9 lg:gap-24">
+                <div className=" h-max">
                   <img
                     className="w-[100%] h-auto lg:h-[30rem] lg:w-[37rem]"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172801254121013288/2.png?ex=6561a348&is=654f2e48&hm=ddc89fe911dbce6259cbf828af8dbd68094cbc273eb24925ace8ff9d8aad0c1d&"
                     alt=""
                   />
                 </div>
-                <div>
+                <div className="h-max">
                   <img
                     className="w-[100%] h-auto lg:h-[30rem] lg:w-[37rem]"
                     src="https://cdn.discordapp.com/attachments/1096324843877703713/1172801254985060412/1.png?ex=6561a348&is=654f2e48&hm=66bdc945e2721525247c8b429498ff59fa208eab863ebe8deb3fb60d3377980b&"
@@ -839,8 +839,8 @@ export default function Mainpage() {
             </div>
           </div>
 
-          <div className="relative lg:left-[17rem] top-[6rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
-            <div className="sticky top-0 w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
+          <div className="relative lg:left-[17rem] top-[2rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
+            <div className="sticky top-3 w-[20%] h-[40vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
               <p className="  lg:w-[34rem]  lg:bg-none  lg:text-[6rem] h-fit text-[5rem]">
                 Statistics
               </p>
@@ -850,7 +850,7 @@ export default function Mainpage() {
 
         {/* Partners */}
         <div id="section11" className="flex mt-[3rem] mb-12 bg-white h-auto">
-          <div className="sticky top-12 w-[20%] lg:w-[10%] bg-white h-[70vh]    ">
+          <div className="sticky top-[6rem] lg:top-12 w-[20%] lg:w-[10%] bg-white h-[40vh] lg:h-[70vh]    ">
             <div className="absolute top-[19rem] lg:top-[29rem] w-[2rem] h-[12rem]   font-dm-serif-display text-darkkhaki text-left [transform:_rotate(-90deg)] [transform-origin:0_0] opacity-[0.32]">
               <p className="w-[18rem]  lg:w-[48rem] lg:text-[6rem] h-fit text-[4rem] ">
                 Partners
@@ -863,6 +863,7 @@ export default function Mainpage() {
               <img
                 src="https://cdn.discordapp.com/attachments/1096324843877703713/1172808040324546610/image.png?ex=6561a99a&is=654f349a&hm=e516fec81851b236f0cbe652d10a04a0ef24f037b77a6580688d09d24ed33b26&"
                 alt=""
+                className=" object-fill "
               />
             </div>
           </div>
