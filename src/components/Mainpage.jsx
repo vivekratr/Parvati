@@ -591,15 +591,15 @@ export default function Mainpage() {
                 />
               </div>
 
-              <div className="grid grid-rows-1 grid-cols-5 lg:grid-cols-2 gap-1 lg:gap-5 max-w-[85%] lg:max-w-[65%] h-[3rem] lg:h-fit">
+              <div className="grid grid-rows-1 grid-cols-5 lg:grid-cols-2 gap-1 lg:gap-5 max-w-[85%] lg:max-w-[65%] h-[3rem] lg:h-max">
                 {smallImages.map((image, index) => (
                   <div
                     key={index}
-                    className="h-22  lg:h-fit"
+                    className="h-22  lg:h-max"
                     onClick={() => setSelectedImage(image)}
                   >
                     <img
-                      className="h-[3.2rem] max-w-full rounded-lg cursor-pointer hover:opacity-75 transition duration-300 ease-in-out"
+                      className="h-[3.2rem] lg:h-auto max-w-full rounded-lg cursor-pointer hover:opacity-75 transition duration-300 ease-in-out"
                       src={image}
                       alt=""
                     />
@@ -679,7 +679,7 @@ export default function Mainpage() {
               </div>
 
               {page3ImgObj[page3Selector][1] && (
-                <div className=" w-[18rem]  h-[20rem] lg:w-[33rem] lg:h-[24rem]">
+                <div className=" w-[18rem]  h-[20rem] lg:w-[37rem] lg:h-auto">
                   {/* <img
                     src={page3ImgObj[page3Selector][1]}
                     alt="Your Image"
@@ -740,7 +740,7 @@ export default function Mainpage() {
           id="section7"
           className="flex mt-9 bg-lightgray h-auto md:h-auto lg:h-auto"
         >
-          <div className="w-[70%] h-auto lg:h-[114vh] ">
+          <div className="w-[70%] lg:w-[80%] h-auto lg:h-[114vh] ">
             <div className="relative rounded-[32px] mt-8  bg-gray-200 md:w-[100%] w-[100%] lg:mx-auto lg:w-[80%] lg:h-auto  h-[2.69rem] overflow-hidden text-left text-[1.25rem] text-darkolivegreen font-dm-serif-display">
               <div
                 className={`relative top-[0rem] left-[0rem] rounded-[32px] w-[50%] h-[2.69rem]  overflow-hidden cursor-pointer ${
@@ -789,7 +789,7 @@ export default function Mainpage() {
           </div>
 
           <div className="relative lg:left-[17rem] top-[0rem]  left-[6rem] lg:top-[0rem]   w-[20%] h-[50vh]  lg:w-[0%]  lg:h-[100vh] ">
-            <div className="sticky  w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[77vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
+            <div className="sticky  w-[20%] h-[50vh]  lg:w-[20%]  lg:h-[73vh]   font-dm-serif-display text-white text-right [transform:_rotate(90deg)] [transform-origin:0_0] opacity-[0.35]">
               <p className="  lg:w-[34rem] w-[20rem]  lg:bg-none  lg:text-[6rem] h-fit text-[3rem]">
                 {isVirualTourSelected ? " Virtual Tour" : "360 view"}
               </p>
