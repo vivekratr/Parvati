@@ -257,14 +257,15 @@ export default function Mainpage() {
                 style={{ borderRadius: "32px" }}
                 className="  relative  p-7 bg-white w-[70%] lg:w-[65%] lg:ml-14 h-[31.19rem]  text-left text-[1.75rem] text-yellow-700 font-dm-serif-displays"
               >
-                <div className="h-fit text-[1.7rem] font-dm-serif-display text-yellow-400 text-left">
+                <div className="h-fit text-[2rem] font-dm-serif-display text-yellow-400 text-left">
                   Collosol
                 </div>
-                <div className="h-fit text-[0.8rem] font-dm-serif-display text-yellow-600 text-left">
-                  KASARVADAVALI, GB ROAD, THANE[W] - 400615
+                <div className="h-fit text-[0.9rem] font-dm-serif-display text-yellow-600 text-left">
+                  Site Address : Surve No. 20/1/2 Near Anmol Garden, Nandivali,
+                  Kalyan (E), Dist.Thane 421 306
                 </div>
                 <div className="h-fit mt-7  text-[2rem] font-dm-serif-display text-red-600 text-left">
-                  Largest 1 BHK Of THANE
+                  Live Life King Size
                 </div>
                 <div className="h-fit text-[0.71em] font-dm-serif-display text-yellow-700 text-left">
                   <p className="h-fit m-0">Luxury Amenities : 25+</p>
@@ -989,38 +990,38 @@ export default function Mainpage() {
             </div>
 
             <div className="flex">
-              <div className="flex h-auto">
+              <div className="flex h-fit w-fit">
                 <img
-                  className="relative w-full h-[12.88rem] object-cover"
+                  className="relative w-auto h-[11rem] object-cover"
                   alt=""
                   src="https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&"
                 />
-                <div className="relative text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
-                  <p className="m-0">{`Builders & Developers :`}</p>
-                  <p className="m-0">Parwati Constructions</p>
+                <div className="relative h-fit text-[1.25rem] font-inter text-black text-center inline-block w-[14.81rem]">
+                  <p className="m-0 h-fit">{`Builders & Developers :`}</p>
+                  <p className="m-0 h-fit">Parwati Constructions</p>
                 </div>
               </div>
 
-              <div className="relative w-full flex flex-col items-center justify-start text-center text-[1.25rem] text-black font-inter">
-                <div className="relative inline-block w-[14.81rem]">
-                  <p className="m-0">RCC Consultants :</p>
-                  <p className="m-0">Anand Sawant</p>
+              <div className="relative w-fit h-fit flex flex-col items-center justify-start text-center text-[1.25rem] text-black font-inter">
+                <div className="relative inline-block h-fit w-[14.81rem]">
+                  <p className="m-0 h-fit">RCC Consultants :</p>
+                  <p className="m-0 h-fit">Anand Sawant</p>
                 </div>
-                <div className="relative inline-block w-[21.06rem]">
+                <div className="relative inline-block h-fit w-[21.06rem]">
                   (Pentacon Structural Consultants)
                 </div>
               </div>
-              <div className="relative text-[1.25rem] font-inter text-black text-center inline-block w-[9.81rem]">
-                <p className="m-0">Architect :</p>
-                <p className="m-0">Anil Nirgude</p>
-                <p className="m-0">Vitan Consultant</p>
+              <div className="relative text-[1.25rem] h-fit font-inter text-black text-center inline-block w-[9.81rem]">
+                <p className="m-0 h-fit ">Architect :</p>
+                <p className="m-0 h-fit">Anil Nirgude</p>
+                <p className="m-0 h-fit">Vitan Consultant</p>
               </div>
               <img
-                className="relative w-full h-[8.56rem] object-cover"
+                className="relative w-[8rem] p-4 h-max object-contain"
                 alt=""
                 src="https://cdn.discordapp.com/attachments/1174781534163697777/1175434537111666839/image.png?ex=656b37b8&is=6558c2b8&hm=d4c672f0e3bff3b06ec0a8aab3e73066df733ca89b197c991ab5a1f88737087a&"
               />
-              <div className="relative text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
+              <div className="relative h-fit w-fit text-[1rem] font-inter text-black text-left [transform:_rotate(90.01deg)] [transform-origin:0_0]">{`*T&C Applied`}</div>
             </div>
           </div>
         </div>

@@ -4,10 +4,10 @@ import DialogWithImage from "./PopOut";
 export default function CarouselCustomNavigation() {
   // const ImgStyle = { objectFit: "cover",maxWidth:`100%`,height:`auto`};
   const imgUrl = [
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818558527479839/1.png?ex=6561b366&is=654f3e66&hm=9032d997f23eaa885dd885a8bcc271ed041eb5f56463472628f4ebc3ee1dc7b3&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818559278272522/3.png?ex=6561b366&is=654f3e66&hm=cde5d8d13067362e134eac734b89f060ee021161c3fd65798021fb09329212de&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818560079364156/5.png?ex=6561b366&is=654f3e66&hm=be3bf3be31fbe806a36b873cd554149be1ba0f9c0bb86798c6da6ef67195fda5&",
-    "https://cdn.discordapp.com/attachments/1096324843877703713/1172818560960176158/4.png?ex=6561b366&is=654f3e66&hm=a9828c3bb189ec15694fd2f3c1ba195d28016e345561cb701f0998381f895b89&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175435751471726654/2.png?ex=656b38d9&is=6558c3d9&hm=a9ac1202fc69f954986389cfc6cf49a7c0ab55c9e9c1da71cc75d8131b73473b&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175435749643014175/1.png?ex=656b38d9&is=6558c3d9&hm=4f6d832e9fb663eefa3edc7cb73b1884b67526f0a76a20d716872076be1799d1&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175435752822296657/3.png?ex=656b38da&is=6558c3da&hm=83586fbe9f749abe7f145e7f92d1670b6a8c1476a40033fb0c3230dc94b62d1c&",
+    "https://cdn.discordapp.com/attachments/1174781534163697777/1175435757574438962/4.png?ex=656b38db&is=6558c3db&hm=ab2ce266f24c02c4edf2b66a6e12860fb61579bbf50610474e1f36bbb86db2d8&",
   ];
   return (
     <Carousel
