@@ -127,8 +127,8 @@ export default function Mainpage() {
 
   const page3ImgObj = {
     0: [
-      "https://cdn.discordapp.com/attachments/1096324843877703713/1172197945911816314/image.png?ex=655f7168&is=654cfc68&hm=ca67d870b1a351f48e0e486706e726ccb9b77fa8b4028bfa3690636b5dd316de&",
-      "https://cdn.discordapp.com/attachments/1096324843877703713/1172495614924292158/image.png?ex=656086a2&is=654e11a2&hm=602eb8a8f351758e0710413ac9f4df6207ecb2205fc9f1d5f8b10f733d940c6f&",
+      "https://media.discordapp.net/attachments/1174781534163697777/1175414573646499851/colsal_broucher_8.png?ex=656b2520&is=6558b020&hm=439f668d164b521fbbfb3fa7d1b898dd730967e03453d92295446bfc700b64fd&=&width=1022&height=662",
+      "https://cdn.discordapp.com/attachments/1174781534163697777/1175414573193511024/colsal_broucher_9.png?ex=656b2520&is=6558b020&hm=03b7c576c665d156df58df64c7e6f721efc21f6b4d304c40ae22f3edeb9fe52b&",
     ],
     1: [
       "https://cdn.discordapp.com/attachments/1096324843877703713/1172222632796631070/image.png?ex=655f8866&is=654d1366&hm=94ebae234c1e57f30691e92f98bff3f034aafe3c428e0e20697558a4c773ff8b&",
@@ -661,9 +661,9 @@ export default function Mainpage() {
           }`}
             >
               <div
-                className={` mb-14  ${
+                className={` lg:mb-0 mb-14  ${
                   page3Selector === 2
-                    ? "w-[18rem] h-[20rem] lg:w-[85rem] lg:h-auto"
+                    ? "w-[18rem] h-[20rem] lg:w-[84rem] lg:h-auto"
                     : "w-[18rem] h-[20rem] lg:w-[37rem] lg:h-auto"
                 }`}
               >
@@ -679,7 +679,7 @@ export default function Mainpage() {
               </div>
 
               {page3ImgObj[page3Selector][1] && (
-                <div className=" w-[18rem]  h-[20rem] lg:w-[37rem] lg:h-auto">
+                <div className="mb-0 w-[18rem]  h-[20rem] lg:w-[37rem] lg:h-auto">
                   {/* <img
                     src={page3ImgObj[page3Selector][1]}
                     alt="Your Image"
