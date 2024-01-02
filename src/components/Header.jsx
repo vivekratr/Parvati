@@ -16,9 +16,9 @@ export default function Header(props) {
           className="relative w-[4.38rem] h-[4.63rem] object-cover"
         />
         <img
-          src={Logo2}
+          src={''}
           alt="Logo2"
-          className="relative w-[8.38rem] h-[2.81rem] object-cover"
+          className="hidden relative w-[8.38rem] h-[2.81rem] object-cover"
         />
       </div>
 
@@ -39,17 +39,18 @@ export default function Header(props) {
       </div>
 
       {isNavOpen && (
-        <div className="lg:hidden my-0  max-w-fit flex flex-col items-start absolute left-0 top-0 bg-white z-10">
-          <div className="my-5 mx-6 mr-13 bg-none relative max-w-[16rem]  max-h-24 px-3  flex flex-row items-center justify-start gap-[0.5rem]">
+        <div className="lg:hidden my-0  max-w-[50%] flex flex-col items-start absolute left-0 top-0 bg-white z-10">
+          <div className="my-5 mx-6 mr-13 bg-none relative max-w-[16rem]  max-h-24 px-3  flex flex-row items-center justify-baseline gap-[0.5rem]">
         <img
-          src={Logo}
+          src={`https://cdn.discordapp.com/attachments/1174781534163697777/1175427552601460738/image.png?ex=656b3136&is=6558bc36&hm=5652fba51e62090dbe053e6a7de77e50fd3a0809452e6ad3ed440fe379cebfb4&`}
+          
           alt="Logo"
           className="relative w-[4.38rem] h-[4.63rem] object-cover"
         />
         <img
           src={Logo2}
           alt="Logo2"
-          className="relative w-[8.38rem] h-[2.81rem] object-cover"
+          className="hidden relative w-[8.38rem] h-[2.81rem] object-cover"
         />
       </div>
           <p className="h-auto w-fit cursor-pointer mx-auto my-1"><Link onClick={()=>{setNavOpen(false)}} to="section2" smooth={true} duration={1000}>About</Link></p>

@@ -1,5 +1,6 @@
 import Header from "./Header";
 
+// eslint-disable-next-line no-unused-vars
 import React, { useState, Fragment } from "react";
 import Corousel from "./Corousel";
 import ScrollCarousel from "./ScrollCorousel";
@@ -18,7 +19,7 @@ export default function Mainpage() {
   const [showAlert, setShowAlert] = useState(false);
   const [isPdfQuery, setIsPdfQuery] = useState(false);
 
-  const phoneNumber = "9870303003";
+  const phoneNumber = "8454953977";
 
   const handleWhatsAppClick = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
@@ -41,6 +42,7 @@ export default function Mainpage() {
   const backgroundImageUrl =
     "https://cdn.discordapp.com/attachments/1096324843877703713/1169889030075326545/image_12.png?ex=65570b10&is=65449610&hm=15386f2762e0011dbe26eae3f532949505320da5aab46cec39e877b613a1acd4&";
 
+  // eslint-disable-next-line no-unused-vars
   const [backgroundImage, setBackgroundImage] = useState(backgroundImageUrl);
   // const [screenSize, setScreenSize] = useState("");
   const [page3Selector, setPage3Selector] = useState(0);
@@ -52,6 +54,7 @@ export default function Mainpage() {
     backgroundPosition: "center",
   };
 
+  // eslint-disable-next-line no-unused-vars
   const [images, setImages] = useState([
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733523263131678/image.png?ex=655dc0e1&is=654b4be1&hm=be1350cdf701589eaa7a0b7575597a4a47469f5eb7ab84f2e43a383417beeca1&",
     "https://cdn.discordapp.com/attachments/1096324843877703713/1171733129459924992/image.png?ex=655dc083&is=654b4b83&hm=04f08b0d09b3a77b590ddf0fe85ce08230da9fbbd68ad15b4ac45a8a475d25f8&",
@@ -294,7 +297,7 @@ export default function Mainpage() {
                     onClick={handleToggle}
                   >
                     <div className=" xs:text-[0.9rem] h-fit  sm:text-[0.9rem] xs:pt-2 xs:pl-5 xs:text-left  text-center pt-1">
-                      1+1 Jodi
+                      2 BHK
                     </div>
                   </div>
                 </div>
@@ -814,7 +817,7 @@ export default function Mainpage() {
 
         {/* Statistics */}
 
-        <div
+        {/* <div
           id="section9"
           className="flex mt-9 bg-lightgray h-auto md:h-auto lg:h-auto"
         >
@@ -846,7 +849,7 @@ export default function Mainpage() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Partners */}
         <div id="section11" className="flex mt-[3rem] mb-12 bg-white h-auto">
@@ -861,7 +864,7 @@ export default function Mainpage() {
           <div className="w-[80%] h-auto ">
             <div className="mx-auto">
               <img
-                src="https://cdn.discordapp.com/attachments/1096324843877703713/1172808040324546610/image.png?ex=6561a99a&is=654f349a&hm=e516fec81851b236f0cbe652d10a04a0ef24f037b77a6580688d09d24ed33b26&"
+                src="https://cdn.discordapp.com/attachments/1096324843877703713/1176860057556746300/image.png?ex=65706756&is=655df256&hm=06032364e268727ae0c03af37b151c15cc6e6b8dcdb2856147406f4aaebffbf5&"
                 alt=""
                 className=" object-fill "
               />
